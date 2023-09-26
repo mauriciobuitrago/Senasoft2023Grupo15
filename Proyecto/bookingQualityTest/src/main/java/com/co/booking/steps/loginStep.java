@@ -16,13 +16,13 @@ public class loginStep {
         loginPage.getDriver().findElement(loginPage.getLOGIN_BUTONN()).click();
     }
     public void SENDKEYSINPUTMAIL() {
-        loginPage.getDriver().findElement(loginPage.getINPUT_MAIL()).sendKeys("andres.estudio.123@gmail.com");
+        loginPage.getDriver().findElement(loginPage.getINPUT_MAIL()).sendKeys("estebax89@gmail.com");
     }
     public void CLICKENTERMAILBUTTON() {
         loginPage.getDriver().findElement(loginPage.getENTER_MAIL_BUTTON()).click();
     }
     public void SENDKEYSPASSWORD() {
-        loginPage.getDriver().findElement(loginPage.getINPUT_PASSWORD()).sendKeys("Prueba123456");
+        loginPage.getDriver().findElement(loginPage.getINPUT_PASSWORD()).sendKeys("AMb967JUAN?*12");
     }
     public void CLICKBUTTONPASS() {
         loginPage.getDriver().findElement(loginPage.getENTER_PASS_BUTTON()).click();

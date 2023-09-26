@@ -18,19 +18,19 @@ public class loginStepDefinition {
     public void theUserEntersTheCredentials() {
         loginStep.CLOSEPOPPUPBUTTON();
         loginStep.CLICKLOGINBUTTON();
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
         loginStep.SENDKEYSINPUTMAIL();
-        loginStep.CLICKENTERMAILBUTTON();
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        loginStep.CLICKENTERMAILBUTTON();
         loginStep.SENDKEYSPASSWORD();
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         loginStep.CLICKBUTTONPASS();
 
     }
