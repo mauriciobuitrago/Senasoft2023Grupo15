@@ -1,12 +1,17 @@
 package com.co.booking.steptsdefinitions;
 
+import com.co.booking.questions.ValidationLanguageEnglish;
+import com.co.booking.task.ChangeLanguageEnglish;
 import io.cucumber.java.Before;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actors.Cast;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.thucydides.core.annotations.Managed;
+import org.hamcrest.Matchers;
 import org.openqa.selenium.WebDriver;
 
 public class changeLanguagesStepDefinition {
@@ -24,12 +29,13 @@ public class changeLanguagesStepDefinition {
 
     @When("the user changes the language to English")
     public void theUserChangesTheLanguageToEnglish() {
-
+        OnStage.theActorInTheSpotlight().attemptsTo(ChangeLanguageEnglish.changeEnglish());
     }
 
     @Then("the user observes that the page is translated into English")
     public void theUserObservesThatThePageIsTranslatedIntoEnglish() {
-
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguageEnglish.compare(),
+                Matchers.is(true)));
     }
 
     @When("the user changes the language to English UK")
