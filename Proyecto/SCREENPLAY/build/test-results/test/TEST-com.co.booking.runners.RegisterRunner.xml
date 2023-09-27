@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.co.booking.runners.RegisterRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="BOSAPRRDCFSP692" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+7 Scenarios (?[32m7 passed?[0m)
+21 Steps (?[32m21 passed?[0m)
+1m51,750s
+
+
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Administrador/Documents/GitHub/Senasoft2023Grupo15/Proyecto/SCREENPLAY/src/test/resources/features/register.feature
+[Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+[Test worker] INFO  - Test Suite Started: Register
+[pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@54bc3bcf: Generating report for test outcome: Register:Failed registration due to numerical data
+[pool-1-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@54bc3bcf: Generating report for test outcome: Register:Failed Registration due to special characters
+[pool-1-thread-6] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@54bc3bcf: Generating report for test outcome: Register:Failed registration empty fields in email
+[pool-1-thread-7] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@54bc3bcf: Generating report for test outcome: Register:Registration failed, empty password fields
+[pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@54bc3bcf: Generating report for test outcome: Register:Successful register
+[pool-1-thread-5] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@54bc3bcf: Generating report for test outcome: Register:Register Fail
+[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@54bc3bcf: Generating report for test outcome: Register:Failed to register, empty fields in enter password
+[pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@68f79b7c: Generating report for test outcome: Register:Failed to register, empty fields in enter password
+[pool-2-thread-5] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@68f79b7c: Generating report for test outcome: Register:Register Fail
+[pool-2-thread-6] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@68f79b7c: Generating report for test outcome: Register:Failed registration empty fields in email
+[pool-2-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@68f79b7c: Generating report for test outcome: Register:Successful register
+[pool-2-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@68f79b7c: Generating report for test outcome: Register:Failed Registration due to special characters
+[pool-2-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@68f79b7c: Generating report for test outcome: Register:Failed registration due to numerical data
+[pool-2-thread-7] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@68f79b7c: Generating report for test outcome: Register:Registration failed, empty password fields
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/Administrador/Documents/GitHub/Senasoft2023Grupo15/Proyecto/SCREENPLAY/src/test/resources/features/register.feature
+]]></system-err>
+</testsuite>

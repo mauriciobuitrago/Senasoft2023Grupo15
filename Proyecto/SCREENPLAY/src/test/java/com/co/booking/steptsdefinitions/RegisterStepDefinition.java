@@ -3,7 +3,9 @@ package com.co.booking.steptsdefinitions;
 import com.co.booking.questions.ValidationEmail;
 import com.co.booking.questions.ValidationEmptyField;
 import com.co.booking.questions.ValidationName;
+import com.co.booking.questions.ValidationPasswordEmptyFields;
 import com.co.booking.task.*;
+import com.co.booking.userinterfaces.RegisterPage;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -43,7 +45,7 @@ public class RegisterStepDefinition {
     @Then("the user can see their account settings")
     public void TheUserCanSeeTheirAccountSettings() {
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationName.compare()
-                , Matchers.is("Tu cuenta")));
+                , Matchers.is(true)));
     }
 
     @When("the user entered numerical credentials in Email")
@@ -56,10 +58,11 @@ public class RegisterStepDefinition {
                 , Matchers.is("Comprueba si el e-mail que has introducido es correcto")));
     }
 
-    @When("the user entered special characters in the Email")
+    @When("the user entered special characters in the email")
     public void theUserEnteredSpecialCharactersInTheEmail() {
-        OnStage.theActorInTheSpotlight().attemptsTo(RegisterFailSpecialcharacters.enterCredentialsSpecial());
+        OnStage.theActorInTheSpotlight().attemptsTo(RegisterSpecialCharacters.enterCredentialsSpecial());
     }
+
 
     @When("The user did not enter data in the Email")
     public void theUserDidNotEnterDataInTheEmail() {
@@ -72,4 +75,31 @@ public class RegisterStepDefinition {
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationEmptyField.compare()
                 , Matchers.is("Continuar con e-mail")));
     }
+
+    @When("the user entered incomplete credentials in the email field")
+    public void theUserEnteredIncompleteCredentialsInTheEmailField() {
+        OnStage.theActorInTheSpotlight().attemptsTo(RegisterFailIncompleteEmail.enterEmptyEmail());
+    }
+
+    @When("the user entered his Email, password field empty")
+    public void theUserEnteredHisEmailPasswordFieldEmpty() {
+      OnStage.theActorInTheSpotlight().attemptsTo(RegisterEmptyPaswords.enterCredentials());
+
+    }
+    @Then("the user can see a warning about the password fields")
+    public void theUserCanSeeAWarningAboutThePasswordFields() {
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationPasswordEmptyFields.compare()
+                , Matchers.is(true)));
+    }
+
+    @When("the user entered their email, leaves an empty password field")
+    public void theUserEnteredTheirEmailLeavesAnEmptyPasswordField() {
+        OnStage.theActorInTheSpotlight().attemptsTo(RegisterEmptyFirtsPasword.enterCredentials());
+    }
+    @Then("the user may see a warning about empty password fields")
+    public void theUserMaySeeAWarningAboutEmptyPasswordFields() {
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationPasswordEmptyFields.compare()
+                , Matchers.is(true)));
+    }
+
 }

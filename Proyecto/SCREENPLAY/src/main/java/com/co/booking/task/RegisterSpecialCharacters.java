@@ -8,19 +8,19 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 
-public class RegisterFailSpecialcharacters implements Task {
+public class RegisterSpecialCharacters implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
 
         actor.attemptsTo(Click.on(MenuComponent.CLOSE_POPPUP_BUTTON));
         actor.attemptsTo(Click.on(MenuComponent.BTN_REGISTER));
-        actor.attemptsTo(Enter.theValue("®ØăὨ∞√").into(RegisterPage.TXT_EMAIL));
+        actor.attemptsTo(Enter.theValue("$$$$$$").into(RegisterPage.TXT_EMAIL));
         actor.attemptsTo(Click.on(RegisterPage.BTN_CONTINUE_REGISTER));
     }
 
-    public static RegisterFailSpecialcharacters enterCredentialsSpecial ()
+    public static RegisterSpecialCharacters enterCredentialsSpecial ()
     {
-        return Tasks.instrumented(RegisterFailSpecialcharacters.class);
+        return Tasks.instrumented(RegisterSpecialCharacters.class);
     }
 }
