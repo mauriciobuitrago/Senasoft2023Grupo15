@@ -12,6 +12,19 @@ public class MenuComponent {
             .locatedBy("//*[text()='Tu cuenta']");
 
 
+        // FORM CONTACT US
 
+    // INPUT MAIL - FORM CONTACT US
+    public static final Target TXT_EMAILFORMCONTACUS = Target.the("Tu direccion de e-mail").
+            locatedBy("//input [@id = 'newsletter_to']");
+
+    // BUTTON SEND MAIL - FORM CONTACT US
+    public static final Target BTN_FORMCONTACTUS = Target.the("¡Suscríbete!").
+            locatedBy("//button [@id = 'newsletter_button_footer' ]");
+
+    // FORM STATUS MESSAGE
+
+    public static final Target MESSAGE_FORMCONTACTUS = Target.the("mensaje del estado del formulario ").
+            locatedBy("");
 
 }
