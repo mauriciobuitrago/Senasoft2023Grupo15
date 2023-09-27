@@ -20,7 +20,8 @@ public class RegisterEmptySecondPasword implements Task {
                 Enter.theValue("Prueba123456").into(RegisterPage.TXT_FIRST_PASSWORD),
                 Enter.theValue("").into(RegisterPage.TXT_SECOND_PASSWORD),
                 Click.on(RegisterPage.BTN_CREATE_ACCOUNT));
-         }
+    }
+
 
     public static RegisterEmptySecondPasword enterCredentials() {
         return Tasks.instrumented(RegisterEmptySecondPasword.class);

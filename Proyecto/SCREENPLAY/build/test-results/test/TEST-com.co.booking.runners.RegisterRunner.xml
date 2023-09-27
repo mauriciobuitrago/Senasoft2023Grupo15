@@ -2,6 +2,11 @@
 <testsuite name="com.co.booking.runners.RegisterRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-AM3VRUH" time="0.0">
   <properties/>
   <system-out><![CDATA[
+<<<<<<< HEAD
+8 Scenarios (?[32m8 passed?[0m)
+24 Steps (?[32m24 passed?[0m)
+2m8,212s
+=======
 ?[31mFailed scenarios:?[0m
 file:///C:/Users/AdminSena/Documents/GitHub/Senasoft2023Grupo15/Proyecto/SCREENPLAY/src/test/resources/features/register.feature:35 # Failed to register, empty fields in enter password
 
@@ -155,6 +160,7 @@ Driver info: driver.version: unknown
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+>>>>>>> 0085aa3281c5f136bb8a91f2869d20e7c02d52c7
 
 
 ]]></system-out>
@@ -176,6 +182,25 @@ Driver info: driver.version: unknown
 -------------------------------------------------------------------------------------
 
 [Test worker] INFO  - Test Suite Started: Register
+<<<<<<< HEAD
+[pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7582a16b: Generating report for test outcome: Register:Successful register
+[pool-1-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7582a16b: Generating report for test outcome: Register:Failed Registration due to special characters
+[pool-1-thread-5] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7582a16b: Generating report for test outcome: Register:Register Fail
+[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7582a16b: Generating report for test outcome: Register:Failed to register, empty fields in confirm password
+[pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7582a16b: Generating report for test outcome: Register:Failed registration due to numerical data
+[pool-1-thread-6] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7582a16b: Generating report for test outcome: Register:Failed registration empty fields in email
+[pool-1-thread-7] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7582a16b: Generating report for test outcome: Register:Registration failed, empty password fields
+[pool-1-thread-8] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7582a16b: Generating report for test outcome: Register:Failed to register, empty fields in enter password
+[pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@54f9326c: Generating report for test outcome: Register:Failed to register, empty fields in confirm password
+[pool-2-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@54f9326c: Generating report for test outcome: Register:Successful register
+[pool-2-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@54f9326c: Generating report for test outcome: Register:Failed registration due to numerical data
+[pool-2-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@54f9326c: Generating report for test outcome: Register:Failed Registration due to special characters
+[pool-2-thread-6] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@54f9326c: Generating report for test outcome: Register:Failed registration empty fields in email
+[pool-2-thread-7] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@54f9326c: Generating report for test outcome: Register:Registration failed, empty password fields
+[pool-2-thread-5] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@54f9326c: Generating report for test outcome: Register:Register Fail
+[pool-2-thread-8] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@54f9326c: Generating report for test outcome: Register:Failed to register, empty fields in enter password
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/Administrador/Documents/GitHub/Senasoft2023Grupo15/Proyecto/SCREENPLAY/src/test/resources/features/register.feature
+=======
 [pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@65a4b9d6: Generating report for test outcome: Register:Successful register
 [pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@65a4b9d6: Generating report for test outcome: Register:Failed registration due to numerical data
 [pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@65a4b9d6: Generating report for test outcome: Register:Failed Registration due to special characters
@@ -191,5 +216,6 @@ Driver info: driver.version: unknown
 [pool-2-thread-7] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@401b67a9: Generating report for test outcome: Register:Failed to register, empty fields in enter password
 [pool-2-thread-6] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@401b67a9: Generating report for test outcome: Register:Registration failed, empty password fields
 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/AdminSena/Documents/GitHub/Senasoft2023Grupo15/Proyecto/SCREENPLAY/src/test/resources/features/register.feature
+>>>>>>> 0085aa3281c5f136bb8a91f2869d20e7c02d52c7
 ]]></system-err>
 </testsuite>

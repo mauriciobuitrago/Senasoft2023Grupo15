@@ -13,14 +13,13 @@ public class RegisterFailIncompleteEmail implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
 
-        actor.attemptsTo(Click.on(MenuComponent.CLOSE_POPPUP_BUTTON));
-        actor.attemptsTo(Click.on(MenuComponent.BTN_REGISTER));
-        actor.attemptsTo(Enter.theValue("jagarcia8578@soy").into(RegisterPage.TXT_EMAIL));
-        actor.attemptsTo(Click.on(RegisterPage.BTN_CONTINUE_REGISTER));
+        actor.attemptsTo(Click.on(MenuComponent.CLOSE_POPPUP_BUTTON),
+                Click.on(MenuComponent.BTN_REGISTER),
+                Enter.theValue("jagarcia8578@soy").into(RegisterPage.TXT_EMAIL),
+                Click.on(RegisterPage.BTN_CONTINUE_REGISTER));
     }
 
-    public static RegisterFailIncompleteEmail enterEmptyEmail ()
-    {
+    public static RegisterFailIncompleteEmail enterEmptyEmail() {
         return Tasks.instrumented(RegisterFailIncompleteEmail.class);
     }
 }
