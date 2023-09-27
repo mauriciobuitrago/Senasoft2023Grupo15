@@ -10,3 +10,8 @@ Feature: Register
     Given the user is on the register page
     When the user entered numerical credentials in Email
     Then the user may see a warning
+
+  Scenario: registration failed due to special characters
+    Given the user is on the register page
+    When the user entered special characters in the Email
+    Then the user may see a warning
