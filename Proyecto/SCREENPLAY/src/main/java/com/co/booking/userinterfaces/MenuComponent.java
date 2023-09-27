@@ -27,4 +27,13 @@ public class MenuComponent {
     public static final Target MESSAGE_FORMCONTACTUS = Target.the("mensaje del estado del formulario ").
             locatedBy("");
 
+
+        // CHANGE LANGUAGE
+
+    // SELECT LANGUAGE
+
+    public static final Target BTN_SELECTLANGUAGE = Target.the("Selecciona tu idioma").
+            locatedBy("//button [@data-testid = 'header-language-picker-trigger']");
+
+
 }

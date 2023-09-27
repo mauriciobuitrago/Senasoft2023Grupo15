@@ -4,101 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6688d46-24b7-4bde-bfea-19beaf5f6bfa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/co/booking/task/contactUsEmpyMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/co/booking/runners/contactUsFormRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/co/booking/steptsdefinitions/contactusformStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/changelanguages.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/contactusform.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/1a87304591d9d9fa76396459f35f81208909ae326d1b17a89cfaf9760ac13a42.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/21c25a7de8bafca82b1ca2c678ce2a60407da731c097f7c02365847da962b7ad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/2349610cd08369fdd3914c3b9f5df0ad470ea8bbb88fba82a21cad5417a682bc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/2e524416b6e21bdf6fdfd3bc4718c42b38f6e4cb046392484daaf395101163d4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/2f3674a1c4c5041b302630b3fd87e4076b0fc32f2da1842f3ec7e640810a9c32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/359ad4c79fbe3af3509f920b6b775cac663b29675f7a4800dcb066d5cceadf8b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/3d45f94fd15d60219d82d56b5a12ae165810ab3b331004683f383d6261b0d1b2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/3d45f94fd15d60219d82d56b5a12ae165810ab3b331004683f383d6261b0d1b2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/3d45f94fd15d60219d82d56b5a12ae165810ab3b331004683f383d6261b0d1b2_screenshots.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/48cdaf52a6f46ea26d21d0d33eed44f4ccf9d97dd56b1f9fc4ebbfd49287108c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/50fbddd87016d952e17ab54155cffabdf422b17b64c3afd34c466db71eda2e43.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/57391a4227bb2769f3c10eb0ecd113edad4851556be1a99440d7f63a91cc363f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/5ba34587d55ae4a848cafa7c142f55af233f98b5e25bb1bce9bdfed06275ff32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/791183e667bfbd32468b5662b8d4c01bf3b77c6e18bf821465dacac04b8c9038.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/797c2bd018ba76ede69289431755f080aab6f2b0e32c2155c41cf982f55ba5b3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/83d421abb323565c054a7fb04c597db9aedfd0a05e6e2cdc5d17f35a41894a4f.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/83d421abb323565c054a7fb04c597db9aedfd0a05e6e2cdc5d17f35a41894a4f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/83d421abb323565c054a7fb04c597db9aedfd0a05e6e2cdc5d17f35a41894a4f_screenshots.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/84e6cf94e296e9dd98c24362bfd17125017ab027b7c38a02e222f03f73867706.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/8bc4472250ddb5d5dc64f27bd550251e40cbe1cedcfabe45015df61c0b42f44a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/8c03e044b0ecf9d457a7de6a4bf65f8b8607a3d6a6d06467734bc7f46b830f31.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/8c03e044b0ecf9d457a7de6a4bf65f8b8607a3d6a6d06467734bc7f46b830f31.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/8ebdba0d936d139d06fb16698190c58c749e2263a8e5405eb30779a44331872d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/90a09872bf71edfab84f5bc1efe4d392ffa748cdf8ab14a934cb792e09c6467c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/99335eda76adac712cb5131ad590f833d8298292507b46d4f3bb2c8c34f3d863.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/99335eda76adac712cb5131ad590f833d8298292507b46d4f3bb2c8c34f3d863.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/99335eda76adac712cb5131ad590f833d8298292507b46d4f3bb2c8c34f3d863_screenshots.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-8c03e044b0ecf9d457a7de6a4bf65f8b8607a3d6a6d06467734bc7f46b830f31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-a6e6aff42320b89420fd240b1981514920b9f4e0d6c30d59fb861728000efac6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/a6e6aff42320b89420fd240b1981514920b9f4e0d6c30d59fb861728000efac6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/a6e6aff42320b89420fd240b1981514920b9f4e0d6c30d59fb861728000efac6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/a6e6aff42320b89420fd240b1981514920b9f4e0d6c30d59fb861728000efac6_screenshots.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/b3f25a66f5eb057874a6e91ea50e8b741d40f695da76dc968d635dac09e5741f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/c7e152b467f7feebb47f8677f10c076589acae6615c03d3ab89d569776cadfba.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/c7e152b467f7feebb47f8677f10c076589acae6615c03d3ab89d569776cadfba.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/c7e152b467f7feebb47f8677f10c076589acae6615c03d3ab89d569776cadfba_screenshots.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/c93ba47789caea9b5a13a154c0a212635181d450060c19ff9a47ca6e1aa77ec3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/d891331135be8642868f78ddea58d61bcbf76b8d4f286013402c2db360186d3b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/de09696ed3f04077122ee2a260a85b96f7c795b2aa619af399d863878f768750.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/e1cd6c19c229c65722436f566bc267ba3c75168496fe8537e7b2a5dabcbd54f6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/e4596abf6053fa85e5dbb937e2197c41e3053cd3c9fe013028e9fb15afc05c79.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/ebab3ad3b6b7b7da8a7bff2f9ecf2edbfdf93269deda4c098bb5c9d2ea56df72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/f0111dbdd367d68f501f05d6b51211ff58f4be2b293ac7407df99cfce9ee534f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/f62f3f71194a9b7063c18a0bc85ee348632911b0ee1f56b57f6440d3c716752c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/f73ced9d77126fc3f879f96d833fc19aa32ab5ed35c8107cb74a0072c35b1d62.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/f73ced9d77126fc3f879f96d833fc19aa32ab5ed35c8107cb74a0072c35b1d62.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/f73ced9d77126fc3f879f96d833fc19aa32ab5ed35c8107cb74a0072c35b1d62_screenshots.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/fd80332d76ef9bde6fa3fad83b87b7462bb99fffd24ce86454087197772359f9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource6677370739773810372.html.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/co/booking/userinterfaces/MenuComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/co/booking/userinterfaces/MenuComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.co.booking.runners.RegisterRunner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.co.booking.runners.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.co.booking.runners.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Register.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.co.booking.runners.RegisterRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/RegisterStepDefinition.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/booking/userinterfaces/MenuComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/booking/userinterfaces/MenuComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/67500787b58373e936a54659075e31117267ba67a7c8c283defe9ee47acad830.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/67500787b58373e936a54659075e31117267ba67a7c8c283defe9ee47acad830.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/67500787b58373e936a54659075e31117267ba67a7c8c283defe9ee47acad830.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/67500787b58373e936a54659075e31117267ba67a7c8c283defe9ee47acad830.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/67500787b58373e936a54659075e31117267ba67a7c8c283defe9ee47acad830_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/67500787b58373e936a54659075e31117267ba67a7c8c283defe9ee47acad830_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/86ef707a58d58eb75717974a156bd4560288f1283eb7cf021bbc7bc220b4a5b4.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/86ef707a58d58eb75717974a156bd4560288f1283eb7cf021bbc7bc220b4a5b4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/86ef707a58d58eb75717974a156bd4560288f1283eb7cf021bbc7bc220b4a5b4.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/86ef707a58d58eb75717974a156bd4560288f1283eb7cf021bbc7bc220b4a5b4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/86ef707a58d58eb75717974a156bd4560288f1283eb7cf021bbc7bc220b4a5b4_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/86ef707a58d58eb75717974a156bd4560288f1283eb7cf021bbc7bc220b4a5b4_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-ee496bf8df934240c146bc748badd869533506a3f798d09a623397ddaf1fa13e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-ee496bf8df934240c146bc748badd869533506a3f798d09a623397ddaf1fa13e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/ee496bf8df934240c146bc748badd869533506a3f798d09a623397ddaf1fa13e.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ee496bf8df934240c146bc748badd869533506a3f798d09a623397ddaf1fa13e.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/ee496bf8df934240c146bc748badd869533506a3f798d09a623397ddaf1fa13e.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ee496bf8df934240c146bc748badd869533506a3f798d09a623397ddaf1fa13e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/ee496bf8df934240c146bc748badd869533506a3f798d09a623397ddaf1fa13e_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ee496bf8df934240c146bc748badd869533506a3f798d09a623397ddaf1fa13e_screenshots.html" afterDir="false" />
-    </list>
+    <list default="true" id="8a9b04dc-fed8-4760-9c47-cd62fc27c01a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,59 +37,17 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="jdkForImporter" value="1.8" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2Vymkb4N19riL9Q2MHvGiE5e1GQ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/AdminSena/Documents/GitHub/Senasoft2023Grupo15/Proyecto/SCREENPLAY",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/Administrador/Downloads/Team15_Booking/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AdminSena/Documents/GitHub/Senasoft2023Grupo15/Proyecto/SCREENPLAY&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrador\Downloads\Team15_Booking\src\test\resources\drivers" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.co.booking.questions" />
-      <recent name="com.co.booking.task" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Gradle.contactUsFormRunner">
-    <configuration name="RegisterRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+}</component>
+  <component name="RunManager">
+    <configuration name="changeLanguagesRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -196,77 +60,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.co.booking.runners.RegisterRunner&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SCREENPLAY [aggregate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="aggregate" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tests in 'com.co.booking.runners'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.co.booking.runners.*&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="contactUsFormRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.co.booking.runners.contactUsFormRunner&quot;" />
+            <option value="&quot;com.co.booking.runners.changeLanguagesRunner&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -279,57 +73,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.contactUsFormRunner" />
-        <item itemvalue="Gradle.RegisterRunner" />
-        <item itemvalue="Gradle.SCREENPLAY [aggregate]" />
-        <item itemvalue="Gradle.Tests in 'com.co.booking.runners'" />
-        <item itemvalue="Gradle.Tests in 'com.co.booking.runners'" />
+        <item itemvalue="Gradle.changeLanguagesRunner" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="b6688d46-24b7-4bde-bfea-19beaf5f6bfa" name="Changes" comment="" />
-      <created>1695816842575</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1695816842575</updated>
-      <workItem from="1695816843507" duration="3577000" />
-      <workItem from="1695820453609" duration="1106000" />
-      <workItem from="1695821569094" duration="6694000" />
-      <workItem from="1695838704198" duration="407000" />
-      <workItem from="1695840303636" duration="84000" />
-      <workItem from="1695840437409" duration="7501000" />
-    </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
