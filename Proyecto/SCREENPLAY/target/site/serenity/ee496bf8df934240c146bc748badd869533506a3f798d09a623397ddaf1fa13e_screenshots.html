@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-09-2023 13:08</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-09-2023 15:18</span>
     <br style="clear:left"/>
 </div>
 
@@ -189,9 +189,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">Successful register
+                                <span class="error-color">Successful register
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -214,7 +214,7 @@
         <div class="table">
             <div class="row">
                 <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Element should be present exception: Expected condition failed: waiting for By.xpath: //button [@class = 'a83ed08757 c21c56c305 f38b6daa18 d691166b09 ab98298258 deab83296e f4552b6561'] to be present (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'BOSAPRRDCFSP692', ip: '172.18.1.224', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'Driver info: driver.version: unknown</span>
+                    <span class="error-message error-message-title">Assertion error: no such element: Unable to locate element: {'method':'xpath','selector':'//*[text()='&Acirc;&iquest;Eres un robot?']'}</span>
                 </div>
                 <div class="col-sm-2">
                     <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
@@ -230,20 +230,13 @@
         <div class="collapse multi-collapse" id="stacktraceModal-overall">
             <div class="card">
                 <div class="card-header">
-                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException </h4>
+                    <h4>java.lang.AssertionError </h4>
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>com.co.booking.task.Register.performAs(Register.java:16)<br />com.co.booking.steptsdefinitions.RegisterStepDefinition.theUserEnteredYourCredentials(RegisterStepDefinition.java:40)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                        <pre>com.co.booking.steptsdefinitions.RegisterStepDefinition.TheUserCanSeeTheirAccountSettings(RegisterStepDefinition.java:45)<br />✽.the user can see their account settings(file:///C:/Users/Administrador/Documents/GitHub/Senasoft2023Grupo15/Proyecto/SCREENPLAY/src/test/resources/features/register.feature:7)<br /></pre>
                     </div>
 
-                    <h4>
-                        Caused by: org.openqa.selenium.TimeoutException
-                    </h4>
-                    <div>
-                            <pre>Expected condition failed: waiting for By.xpath: //button [@class = 'a83ed08757 c21c56c305 f38b6daa18 d691166b09 ab98298258 deab83296e f4552b6561'] to be present (tried for 5 second(s) with 100 milliseconds interval)<br>Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'<br>System info: host: 'BOSAPRRDCFSP692', ip: '172.18.1.224', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'<br>Driver info: driver.version: unknown</pre>
-                        <pre>com.co.booking.task.Register.performAs(Register.java :16)<br />com.co.booking.steptsdefinitions.RegisterStepDefinition.theUserEnteredYourCredentials(RegisterStepDefinition.java :40)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java :66)<br />io.cucumber.java.Invoker.invoke(Invoker.java :24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java :47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java :29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java :66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java :63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java :92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java :51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :57)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java :69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java :74)<br /></pre>
-                    </div>
                 </div>
             </div>
         </div>
@@ -251,31 +244,35 @@
 
 
                 <div class="panel-body">
-                    <a href="pagesource3302744654108125930.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                    <a href="pagesource5406177074096851229.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
                 </div>
             </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="f9f2330fac9fabe811a7b0bb8e83f8e7b02761dcbb06b97f217d082f53630f80.png" title=" Given the user is on the register page" width="1366"/>
-                <img src="f9f2330fac9fabe811a7b0bb8e83f8e7b02761dcbb06b97f217d082f53630f80.png" title=" Team15 opens the https://www.booking.com/" width="1366"/>
-                <img src="f9f2330fac9fabe811a7b0bb8e83f8e7b02761dcbb06b97f217d082f53630f80.png" title=" Given the user is on the register page (completed)" width="1366"/>
-                <img src="f9f2330fac9fabe811a7b0bb8e83f8e7b02761dcbb06b97f217d082f53630f80.png" title=" When the user entered your credentials" width="1366"/>
-                <img src="f9f2330fac9fabe811a7b0bb8e83f8e7b02761dcbb06b97f217d082f53630f80.png" title=" Team15 register" width="1366"/>
-                <img src="8184d4fba74fcbb6c2b71252d0d26eee2840d9e22b9daaa5cd9ce10df4c4710f.png" title=" Team15 clicks on Clic para cerrar anuncio" width="1366"/>
-                <img src="8184d4fba74fcbb6c2b71252d0d26eee2840d9e22b9daaa5cd9ce10df4c4710f.png" title=" Team15 clicks on Clic boton de registro" width="1366"/>
-                <img src="5101dcdc868372f660e559107d2069de4102fc2e8158f158b38e0f12060fe71c.png" title=" Team15 clicks on Clic boton de registro (completed)" width="1366"/>
-                <img src="5101dcdc868372f660e559107d2069de4102fc2e8158f158b38e0f12060fe71c.png" title=" Team15 enters 'jagarcia8578@soy.sena.edu' into Ingresar Email" width="1366"/>
-                <img src="f69f875212306658744755044f190e752530482a027ff7144615ee294a331782.png" title=" Team15 enters 'jagarcia8578@soy.sena.edu' into Ingresar Email (completed)" width="1366"/>
-                <img src="f69f875212306658744755044f190e752530482a027ff7144615ee294a331782.png" title=" Team15 clicks on Clic boton de continuar registro" width="1366"/>
-                <img src="cc4db317678cdfaf1e31cc4e8840034d1eddd9f00e8fc7e28e480d2fb5452905.png" title=" Team15 clicks on Clic boton de continuar registro (completed)" width="1366"/>
-                <img src="cc4db317678cdfaf1e31cc4e8840034d1eddd9f00e8fc7e28e480d2fb5452905.png" title=" Team15 enters 'Prueba123456' into Ingresar primera contrase&Atilde;&plusmn;a" width="1366"/>
+                <img src="157eeaa3bc37df5ef42cd43eeecf3a1ffab4704c5ce8ed48ec838b62732bc9ba.png" title=" Given the user is on the register page" width="1366"/>
+                <img src="157eeaa3bc37df5ef42cd43eeecf3a1ffab4704c5ce8ed48ec838b62732bc9ba.png" title=" Team15 opens the https://www.booking.com/" width="1366"/>
+                <img src="157eeaa3bc37df5ef42cd43eeecf3a1ffab4704c5ce8ed48ec838b62732bc9ba.png" title=" Given the user is on the register page (completed)" width="1366"/>
+                <img src="4877a3bb701de0dfe05db78f8cc86e59f03cebb4c09425ccbc885c878669e58e.png" title=" When the user entered your credentials" width="1366"/>
+                <img src="4877a3bb701de0dfe05db78f8cc86e59f03cebb4c09425ccbc885c878669e58e.png" title=" Team15 register" width="1366"/>
+                <img src="4877a3bb701de0dfe05db78f8cc86e59f03cebb4c09425ccbc885c878669e58e.png" title=" Team15 clicks on Clic para cerrar anuncio" width="1366"/>
+                <img src="0adb1cc09a70689a27db9fbbb5635f8e5b7f209f7f229380afd4de4895f0d5aa.png" title=" Team15 clicks on Clic para cerrar anuncio (completed)" width="1366"/>
+                <img src="0adb1cc09a70689a27db9fbbb5635f8e5b7f209f7f229380afd4de4895f0d5aa.png" title=" Team15 clicks on Clic boton de registro" width="1366"/>
+                <img src="e4f20b8c66572b42cc64b1d059b9452afaef87bdcc3a136dc94a32efe40269d6.png" title=" Team15 clicks on Clic boton de registro (completed)" width="1366"/>
+                <img src="e4f20b8c66572b42cc64b1d059b9452afaef87bdcc3a136dc94a32efe40269d6.png" title=" Team15 enters 'jagarcia8578@soy.sena.edu' into Ingresar Email" width="1366"/>
+                <img src="5387b95265f7ab6cdba621d0c863cd0a4c52ab1d655b3fa06b5d1e9db669131a.png" title=" Team15 enters 'jagarcia8578@soy.sena.edu' into Ingresar Email (completed)" width="1366"/>
+                <img src="5387b95265f7ab6cdba621d0c863cd0a4c52ab1d655b3fa06b5d1e9db669131a.png" title=" Team15 clicks on Clic boton de continuar registro" width="1366"/>
+                <img src="b21f57eb0dc2d486752427b1eab051af007c851b73de01094053ef833d71341b.png" title=" Team15 clicks on Clic boton de continuar registro (completed)" width="1366"/>
+                <img src="b21f57eb0dc2d486752427b1eab051af007c851b73de01094053ef833d71341b.png" title=" Team15 enters 'Prueba123456' into Ingresar primera contrase&Atilde;&plusmn;a" width="1366"/>
                 <img src="c0aa83ab750709b961cf98a2eb87cfb1c2b86f9c840ee5a2e77404ddfd180d9c.png" title=" Team15 enters 'Prueba123456' into Ingresar primera contrase&Atilde;&plusmn;a (completed)" width="1366"/>
                 <img src="c0aa83ab750709b961cf98a2eb87cfb1c2b86f9c840ee5a2e77404ddfd180d9c.png" title=" Team15 enters 'Prueba123456' into Confirmar Contrase&Atilde;&plusmn;a" width="1366"/>
                 <img src="021e646ea2f6196367ffe2d6760de67061f7e8e35dd1ca12f2dca6794daf68bd.png" title=" Team15 enters 'Prueba123456' into Confirmar Contrase&Atilde;&plusmn;a (completed)" width="1366"/>
                 <img src="021e646ea2f6196367ffe2d6760de67061f7e8e35dd1ca12f2dca6794daf68bd.png" title=" Team15 clicks on Clic boton de crear cuenta" width="1366"/>
                 <img src="c339ff6f288700380f29f891362e0fba1357231bb46a705425a95cab54b50e59.png" title=" Team15 clicks on Clic boton de crear cuenta (completed)" width="1366"/>
-                <img src="c339ff6f288700380f29f891362e0fba1357231bb46a705425a95cab54b50e59.png" title=" Team15 clicks on Clic para cerrar anuncio" width="1366"/>
-                <img src="b9c951aba2a6dcc118d3f2b858196dbd2fa7edc9e7111fe20e7ec3d10dba3175.png" title=" Team15 clicks on Clic para cerrar anuncio (completed): <span class='failing-color'>FAILURE</span>" width="1366"/>
+                <img src="c339ff6f288700380f29f891362e0fba1357231bb46a705425a95cab54b50e59.png" title=" Team15 register (completed)" width="1366"/>
+                <img src="c339ff6f288700380f29f891362e0fba1357231bb46a705425a95cab54b50e59.png" title=" When the user entered your credentials (completed)" width="1366"/>
+                <img src="4323ad978a5181c419d3ac5ded805bad99f653d16439266dffc258dc742543c9.png" title=" Then the user can see their account settings" width="1366"/>
+                <img src="ca48e838e83a8aa7889c201ee7a1314687bd0ee08b0b1f2cff1b4b5ee58b1c36.png" title=" Then validation name should be '&amp;Acirc;&amp;iquest;Eres un robot?'" width="1366"/>
+                <img src="b9c951aba2a6dcc118d3f2b858196dbd2fa7edc9e7111fe20e7ec3d10dba3175.png" title=" Then validation name should be '&amp;Acirc;&amp;iquest;Eres un robot?' (completed): <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

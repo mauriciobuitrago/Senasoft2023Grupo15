@@ -23,6 +23,9 @@ public class RegisterPage {
     public static final Target VALIDATE_EMPTY_EMAIL = Target.the("Mensaje de campo vacio de Email")
             .locatedBy("//*[text()='Continuar con e-mail']");
 
+    public static final Target VALIDATE_ACCOUNT = Target.the("Item para validar el registro ")
+            .locatedBy("//*[text()='robot']");
+
 
 }
 
