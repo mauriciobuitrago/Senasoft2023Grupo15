@@ -15,6 +15,7 @@ public class loginPage extends PageObject {
     By ENTER_PASS_BUTTON = By.xpath("//button [@class = 'Iiab0gVMeWOd4XcyJGA3 wPxWIS_rJCpwAWksE0s3 Ut3prtt_wDsi7NM_83Jc TuDOVH9WFSdot9jLyXlw EJWUAldA4O1mP0SSFXPm whxYYRnvyHGyGqxO4ici']");
     By BUTTONACCOUNT = By.xpath("//button [@data-testid = 'header-profile']");
     By BUTTON_MANAGEACCOUNT = By.xpath("//a [@href = 'https://secure.booking.com/mysettings.es.html?label=gen173bo-1FCA8oggI46AdIClgDaDKIAQGYAQq4ARfIAQzYAQHoAQH4AQaIAgGYAiGoAgO4AvzGy6gGwAIB0gIkNjBiNGQzYjEtNmExNS00NTI3LWJlMDYtNDFkOTcwZmNjZmIy2AIF4AIB&sid=d1d13433cae8963352dd0f18aa5eecbc&aid=304142']");
+    By HEADER_MESSAGEERROR = By.xpath("//div [@class = 'sOewt4Y1yBOPAIUGcJwH fD2Lif3G4ehCgKZJDFwf CgEr4LoA7GBJSRxe_hwL']");
 
     public By getCLOSE_POPPUP_BUTTON() {
         return CLOSE_POPPUP_BUTTON;
@@ -81,5 +82,13 @@ public class loginPage extends PageObject {
 
     public void setBUTTON_MANAGEACCOUNT(By BUTTON_MANAGEACCOUNT) {
         this.BUTTON_MANAGEACCOUNT = BUTTON_MANAGEACCOUNT;
+    }
+
+    public By getHEADER_MESSAGEERROR() {
+        return HEADER_MESSAGEERROR;
+    }
+
+    public void setHEADER_MESSAGEERROR(By HEADER_MESSAGEERROR) {
+        this.HEADER_MESSAGEERROR = HEADER_MESSAGEERROR;
     }
 }
