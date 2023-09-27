@@ -20,7 +20,7 @@ public class Register implements Task {
                 Enter.theValue("Prueba123456").into(RegisterPage.TXT_FIRST_PASSWORD),
                 Enter.theValue("Prueba123456").into(RegisterPage.TXT_SECOND_PASSWORD),
                 Click.on(RegisterPage.BTN_CREATE_ACCOUNT));
-         }
+           }
 
     public static Register enterCredentials() {
         return Tasks.instrumented(Register.class);

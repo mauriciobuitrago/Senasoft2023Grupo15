@@ -5,12 +5,13 @@ import com.co.booking.userinterfaces.RegisterPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
+import net.serenitybdd.screenplay.questions.Visibility;
 
-public class ValidationName implements Question<String> {
+public class ValidationName implements Question<Boolean> {
 
     @Override
-    public String answeredBy(Actor actor) {
-        return Text.of(RegisterPage.VALIDATE_ACCOUNT).viewedBy(actor).asString();
+    public Boolean answeredBy(Actor actor) {
+        return Visibility.of(RegisterPage.VALIDATE_ACCOUNT).viewedBy(actor).asBoolean();
     }
 
     public static ValidationName compare ()

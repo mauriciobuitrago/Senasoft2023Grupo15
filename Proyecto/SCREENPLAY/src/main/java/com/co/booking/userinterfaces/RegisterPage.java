@@ -24,7 +24,14 @@ public class RegisterPage {
             .locatedBy("//*[text()='Continuar con e-mail']");
 
     public static final Target VALIDATE_ACCOUNT = Target.the("Item para validar el registro ")
-            .locatedBy("//*[text()='Crea una contraseña']");
+            .locatedBy("//input[@id='new_password']");
+
+    public static final Target VALIDATE_EMPTY_FIRTS_PASSWORD= Target.the("Mensaje para validar el ingreso de la contraseña")
+            .locatedBy("//div[@id='new_password-note']");
+
+    public static final Target VALIDATE_EMPTY_SECOND_PASSWORD= Target.the("Mensaje para validar el ingreso de la contraseña en el segundo campo")
+            .locatedBy("//input[@placeholder='Confirma tu contraseña']");
+
 
 
 }

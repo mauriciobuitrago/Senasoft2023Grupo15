@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-09-2023 15:57</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-09-2023 17:44</span>
     <br style="clear:left"/>
 </div>
 
@@ -189,9 +189,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">Register Fail
+                                <span class="success-color">Register Fail
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -208,60 +208,25 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
-            <div class="screenshotFailure panel panel-danger">
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Element should be present exception: Expected condition failed: waiting for By.xpath: //button [@class = 'a83ed08757 c21c56c305 f38b6daa18 d691166b09 ab98298258 deab83296e f4552b6561'] to be present (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'BOSAPRRDCFSP692', ip: '172.18.1.224', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'Driver info: driver.version: unknown</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-overall">
-            <div class="card">
-                <div class="card-header">
-                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>com.co.booking.task.RegisterFailIncompleteEmail.performAs(RegisterFailIncompleteEmail.java:16)<br />com.co.booking.steptsdefinitions.RegisterStepDefinition.theUserEnteredIncompleteCredentialsInTheEmailField(RegisterStepDefinition.java:79)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
-                    </div>
-
-                    <h4>
-                        Caused by: org.openqa.selenium.TimeoutException
-                    </h4>
-                    <div>
-                            <pre>Expected condition failed: waiting for By.xpath: //button [@class = 'a83ed08757 c21c56c305 f38b6daa18 d691166b09 ab98298258 deab83296e f4552b6561'] to be present (tried for 5 second(s) with 100 milliseconds interval)<br>Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'<br>System info: host: 'BOSAPRRDCFSP692', ip: '172.18.1.224', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'<br>Driver info: driver.version: unknown</pre>
-                        <pre>com.co.booking.task.RegisterFailIncompleteEmail.performAs(RegisterFailIncompleteEmail.java :16)<br />com.co.booking.steptsdefinitions.RegisterStepDefinition.theUserEnteredIncompleteCredentialsInTheEmailField(RegisterStepDefinition.java :79)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java :66)<br />io.cucumber.java.Invoker.invoke(Invoker.java :24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java :47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java :29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java :66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java :63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java :92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java :51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :57)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java :69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java :74)<br /></pre>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-                <div class="panel-body">
-                    <a href="pagesource5976169343459283110.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
-                </div>
-            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="89fc4df14f72293128d27c9102959cc1ba73012de075873c3bf41a72225ea110.png" title=" Given the user is on the register page" width="1366"/>
-                <img src="89fc4df14f72293128d27c9102959cc1ba73012de075873c3bf41a72225ea110.png" title=" Team15 opens the https://www.booking.com/" width="1366"/>
-                <img src="89fc4df14f72293128d27c9102959cc1ba73012de075873c3bf41a72225ea110.png" title=" Given the user is on the register page (completed)" width="1366"/>
-                <img src="89fc4df14f72293128d27c9102959cc1ba73012de075873c3bf41a72225ea110.png" title=" When the user entered incomplete credentials in the email field" width="1366"/>
-                <img src="89fc4df14f72293128d27c9102959cc1ba73012de075873c3bf41a72225ea110.png" title=" Team15 register fail incomplete email" width="1366"/>
-                <img src="89fc4df14f72293128d27c9102959cc1ba73012de075873c3bf41a72225ea110.png" title=" Team15 clicks on Clic para cerrar anuncio: <span class='failing-color'>FAILURE</span>" width="1366"/>
+                <img src="ea4533bc83625853b7303168921b80184162af2b67a0dd0df629c8ba3799efb9.png" title=" Given the user is on the register page" width="1366"/>
+                <img src="ea4533bc83625853b7303168921b80184162af2b67a0dd0df629c8ba3799efb9.png" title=" Team15 opens the https://www.booking.com/" width="1366"/>
+                <img src="ea4533bc83625853b7303168921b80184162af2b67a0dd0df629c8ba3799efb9.png" title=" Given the user is on the register page (completed)" width="1366"/>
+                <img src="5ad442441525986c9872ea50bb7b19dff46386f60ebb8ac3dc89bd146a7e56b8.png" title=" When the user entered incomplete credentials in the email field" width="1366"/>
+                <img src="5ad442441525986c9872ea50bb7b19dff46386f60ebb8ac3dc89bd146a7e56b8.png" title=" Team15 register fail incomplete email" width="1366"/>
+                <img src="5ad442441525986c9872ea50bb7b19dff46386f60ebb8ac3dc89bd146a7e56b8.png" title=" Team15 clicks on Clic para cerrar anuncio" width="1366"/>
+                <img src="5ad442441525986c9872ea50bb7b19dff46386f60ebb8ac3dc89bd146a7e56b8.png" title=" Team15 clicks on Clic boton de registro" width="1366"/>
+                <img src="5101dcdc868372f660e559107d2069de4102fc2e8158f158b38e0f12060fe71c.png" title=" Team15 clicks on Clic boton de registro (completed)" width="1366"/>
+                <img src="5101dcdc868372f660e559107d2069de4102fc2e8158f158b38e0f12060fe71c.png" title=" Team15 enters 'jagarcia8578@soy' into Ingresar Email" width="1366"/>
+                <img src="00a049dc716e7b98ee42f8ad87dfe2563a7f827794abf814ebd5a59be75f61ed.png" title=" Team15 enters 'jagarcia8578@soy' into Ingresar Email (completed)" width="1366"/>
+                <img src="00a049dc716e7b98ee42f8ad87dfe2563a7f827794abf814ebd5a59be75f61ed.png" title=" Team15 clicks on Clic boton de continuar registro" width="1366"/>
+                <img src="1abb415e2721311fb9d9d7f7f83c7511d020c477f2655ed8a45250f81e40573e.png" title=" Team15 clicks on Clic boton de continuar registro (completed)" width="1366"/>
+                <img src="1abb415e2721311fb9d9d7f7f83c7511d020c477f2655ed8a45250f81e40573e.png" title=" Team15 register fail incomplete email (completed)" width="1366"/>
+                <img src="1abb415e2721311fb9d9d7f7f83c7511d020c477f2655ed8a45250f81e40573e.png" title=" When the user entered incomplete credentials in the email field (completed)" width="1366"/>
+                <img src="1abb415e2721311fb9d9d7f7f83c7511d020c477f2655ed8a45250f81e40573e.png" title=" Then the user may see a warning" width="1366"/>
+                <img src="1abb415e2721311fb9d9d7f7f83c7511d020c477f2655ed8a45250f81e40573e.png" title=" Then validation email should be 'Comprueba si el e-mail que has introducido es correcto'" width="1366"/>
+                <img src="1abb415e2721311fb9d9d7f7f83c7511d020c477f2655ed8a45250f81e40573e.png" title=" Then the user may see a warning (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
             </div>
         </div>
 

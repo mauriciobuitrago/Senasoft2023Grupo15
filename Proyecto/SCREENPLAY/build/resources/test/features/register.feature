@@ -1,6 +1,13 @@
 Feature: Register
   The user register in to the website
 
+  Scenario: Failed to register, empty fields in enter password
+    Given the user is on the register page
+    When the user entered their email, leaves an empty password field
+    Then the user may see a warning about empty password fields
+
+
+
   Scenario: Successful register
     Given the user is on the register page
     When the user entered your credentials
@@ -31,4 +38,6 @@ Feature: Register
     Given the user is on the register page
     When the user entered his Email, password field empty
     Then the user can see a warning about the password fields
+
+
 
