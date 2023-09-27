@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Register","Failed registration due to numerical data","SUCCESS","2023-09-27T12:00:29.332-05:00[America/Bogota]","0.0","12.66"
+"Register","registration failed due to special characters","SUCCESS","2023-09-27T12:00:42.761-05:00[America/Bogota]","0.0","12.57"

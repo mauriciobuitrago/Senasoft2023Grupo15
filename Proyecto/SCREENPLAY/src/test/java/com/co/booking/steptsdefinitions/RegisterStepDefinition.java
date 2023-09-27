@@ -1,7 +1,9 @@
 package com.co.booking.steptsdefinitions;
 
+import com.co.booking.questions.ValidationEmail;
+import com.co.booking.questions.ValidationEmptyField;
 import com.co.booking.questions.ValidationName;
-import com.co.booking.task.Register;
+import com.co.booking.task.*;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -38,9 +40,36 @@ public class RegisterStepDefinition {
     OnStage.theActorInTheSpotlight().attemptsTo(Register.enterCredentials());
 
     }
-    @Then("Then the user can see their account settings")
-    public void thenTheUserCanSeeTheirAccountSettings() {
+    @Then("the user can see their account settings")
+    public void TheUserCanSeeTheirAccountSettings() {
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationName.compare()
                 , Matchers.is("Tu cuenta")));
+    }
+
+    @When("the user entered numerical credentials in Email")
+    public void theUserEnteredNumericalCredentialsInEmail() {
+        OnStage.theActorInTheSpotlight().attemptsTo(RegisterFailNumbers.enterCredentialsNumbers());
+    }
+    @Then("the user may see a warning")
+    public void theUserMaySeeAWarning() {
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationEmail.compare()
+                , Matchers.is("Comprueba si el e-mail que has introducido es correcto")));
+    }
+
+    @When("the user entered special characters in the Email")
+    public void theUserEnteredSpecialCharactersInTheEmail() {
+        OnStage.theActorInTheSpotlight().attemptsTo(RegisterFailSpecialcharacters.enterCredentialsSpecial());
+    }
+
+    @When("The user did not enter data in the Email")
+    public void theUserDidNotEnterDataInTheEmail() {
+        OnStage.theActorInTheSpotlight().attemptsTo(RegisterFailEmptyEmail.enterEmptyEmail());
+    }
+
+
+    @Then("the user can see a warning about the field")
+    public void theUserCanSeeAWarningAboutTheField() {
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationEmptyField.compare()
+                , Matchers.is("Continuar con e-mail")));
     }
 }

@@ -87,11 +87,11 @@
 <span class="code">
 <pre>
 ?[31mFailed scenarios:?[0m
-file:///C:/Users/Administrador/Downloads/Team15_Booking/src/test/resources/features/register.feature:4 # Successful register
+file:///C:/Users/Administrador/Documents/GitHub/Senasoft2023Grupo15/Proyecto/SCREENPLAY/src/test/resources/features/register.feature:4 # Successful register
 
-1 Scenarios (?[31m1 failed?[0m)
-3 Steps (?[31m1 failed?[0m, ?[36m1 skipped?[0m, ?[32m1 passed?[0m)
-0m27,627s
+3 Scenarios (?[31m1 failed?[0m, ?[32m2 passed?[0m)
+9 Steps (?[31m1 failed?[0m, ?[36m1 skipped?[0m, ?[32m7 passed?[0m)
+0m52,229s
 
 
 net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException: Expected condition failed: waiting for By.xpath: //button [@class = 'a83ed08757 c21c56c305 f38b6daa18 d691166b09 ab98298258 deab83296e f4552b6561'] to be present (tried for 5 second(s) with 100 milliseconds interval)
@@ -103,7 +103,7 @@ Driver info: driver.version: unknown
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementPresent(WebElementFacadeImpl.java:987)
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1263)
 	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$yuAFjI1f.performAs$accessor$zAnqaBr4(Unknown Source)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$vCOFFkBr.performAs$accessor$qVY3LX4j(Unknown Source)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -115,12 +115,12 @@ Driver info: driver.version: unknown
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
 	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$yuAFjI1f.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$vCOFFkBr.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:252)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:178)
 	at com.co.booking.task.Register.performAs(Register.java:16)
-	at com.co.booking.task.Register$ByteBuddy$bkaQsgxR.performAs$accessor$On4LbAll(Unknown Source)
+	at com.co.booking.task.Register$ByteBuddy$yDy60qtn.performAs$accessor$2NacnSkQ(Unknown Source)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -132,12 +132,12 @@ Driver info: driver.version: unknown
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
 	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at com.co.booking.task.Register$ByteBuddy$bkaQsgxR.performAs(Unknown Source)
+	at com.co.booking.task.Register$ByteBuddy$yDy60qtn.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:252)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:178)
-	at com.co.booking.steptsdefinitions.RegisterStepDefinition.theUserEnteredYourCredentials(RegisterStepDefinition.java:38)
-	at ?.the user entered your credentials(file:///C:/Users/Administrador/Downloads/Team15_Booking/src/test/resources/features/register.feature:6)
+	at com.co.booking.steptsdefinitions.RegisterStepDefinition.theUserEnteredYourCredentials(RegisterStepDefinition.java:40)
+	at ?.the user entered your credentials(file:///C:/Users/Administrador/Documents/GitHub/Senasoft2023Grupo15/Proyecto/SCREENPLAY/src/test/resources/features/register.feature:6)
 Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //button [@class = 'a83ed08757 c21c56c305 f38b6daa18 d691166b09 ab98298258 deab83296e f4552b6561'] to be present (tried for 5 second(s) with 100 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'BOSAPRRDCFSP692', ip: '172.18.1.224', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
@@ -148,7 +148,7 @@ Driver info: driver.version: unknown
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementPresent(WebElementFacadeImpl.java:987)
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1263)
 	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$yuAFjI1f.performAs$accessor$zAnqaBr4(Unknown Source)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$vCOFFkBr.performAs$accessor$qVY3LX4j(Unknown Source)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -160,12 +160,12 @@ Driver info: driver.version: unknown
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
 	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$yuAFjI1f.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$vCOFFkBr.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:252)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:178)
 	at com.co.booking.task.Register.performAs(Register.java:16)
-	at com.co.booking.task.Register$ByteBuddy$bkaQsgxR.performAs$accessor$On4LbAll(Unknown Source)
+	at com.co.booking.task.Register$ByteBuddy$yDy60qtn.performAs$accessor$2NacnSkQ(Unknown Source)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -177,11 +177,11 @@ Driver info: driver.version: unknown
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
 	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at com.co.booking.task.Register$ByteBuddy$bkaQsgxR.performAs(Unknown Source)
+	at com.co.booking.task.Register$ByteBuddy$yDy60qtn.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:252)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:178)
-	at com.co.booking.steptsdefinitions.RegisterStepDefinition.theUserEnteredYourCredentials(RegisterStepDefinition.java:38)
+	at com.co.booking.steptsdefinitions.RegisterStepDefinition.theUserEnteredYourCredentials(RegisterStepDefinition.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -249,7 +249,7 @@ Driver info: driver.version: unknown
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Administrador/Downloads/Team15_Booking/src/test/resources/features/register.feature
+<pre>[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Administrador/Documents/GitHub/Senasoft2023Grupo15/Proyecto/SCREENPLAY/src/test/resources/features/register.feature
 [Test worker] INFO  - 
 
 -------------------------------------------------------------------------------------
@@ -267,9 +267,13 @@ Driver info: driver.version: unknown
 -------------------------------------------------------------------------------------
 
 [Test worker] INFO  - Test Suite Started: Register
-[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@443a06ad: Generating report for test outcome: Register:Successful register
-[pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@686cf8ad: Generating report for test outcome: Register:Successful register
-[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/Administrador/Downloads/Team15_Booking/src/test/resources/features/register.feature
+[pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@76af51d6: Generating report for test outcome: Register:Failed registration empty fields in email
+[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@76af51d6: Generating report for test outcome: Register:Successful register
+[pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@76af51d6: Generating report for test outcome: Register:Failed registration due to numerical data
+[pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@3c3e363: Generating report for test outcome: Register:Successful register
+[pool-2-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@3c3e363: Generating report for test outcome: Register:Failed registration due to numerical data
+[pool-2-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@3c3e363: Generating report for test outcome: Register:Failed registration empty fields in email
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/Administrador/Documents/GitHub/Senasoft2023Grupo15/Proyecto/SCREENPLAY/src/test/resources/features/register.feature
 </pre>
 </span>
 </div>
@@ -281,7 +285,7 @@ Driver info: driver.version: unknown
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.2</a> at 27/09/2023 10:47:26 AM</p>
+<a href="http://www.gradle.org">Gradle 8.2</a> at 27/09/2023 01:09:34 PM</p>
 </div>
 </div>
 </body>

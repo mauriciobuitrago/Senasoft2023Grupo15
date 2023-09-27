@@ -18,5 +18,11 @@ public class RegisterPage {
     public static final Target BTN_CREATE_ACCOUNT  = Target.the("Clic boton de crear cuenta")
             .locatedBy("//button [@class = 'Iiab0gVMeWOd4XcyJGA3 wPxWIS_rJCpwAWksE0s3 Ut3prtt_wDsi7NM_83Jc TuDOVH9WFSdot9jLyXlw EJWUAldA4O1mP0SSFXPm whxYYRnvyHGyGqxO4ici']");
 
+    public static final Target VALIDATE_ERROR_EMAIL = Target.the("Mensaje de validacion Email")
+            .locatedBy("//*[text()='Comprueba si el e-mail que has introducido es correcto']");
+    public static final Target VALIDATE_EMPTY_EMAIL = Target.the("Mensaje de campo vacio de Email")
+            .locatedBy("//*[text()='Continuar con e-mail']");
+
 
 }
+
