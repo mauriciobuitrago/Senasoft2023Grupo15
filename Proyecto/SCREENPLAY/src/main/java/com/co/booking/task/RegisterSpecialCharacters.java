@@ -13,14 +13,13 @@ public class RegisterSpecialCharacters implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
 
-        actor.attemptsTo(Click.on(MenuComponent.CLOSE_POPPUP_BUTTON));
-        actor.attemptsTo(Click.on(MenuComponent.BTN_REGISTER));
-        actor.attemptsTo(Enter.theValue("$$$$$$").into(RegisterPage.TXT_EMAIL));
-        actor.attemptsTo(Click.on(RegisterPage.BTN_CONTINUE_REGISTER));
+        actor.attemptsTo(Click.on(MenuComponent.CLOSE_POPPUP_BUTTON),
+                Click.on(MenuComponent.BTN_REGISTER),
+                Enter.theValue("$$$$$$").into(RegisterPage.TXT_EMAIL),
+                Click.on(RegisterPage.BTN_CONTINUE_REGISTER));
     }
 
-    public static RegisterSpecialCharacters enterCredentialsSpecial ()
-    {
+    public static RegisterSpecialCharacters enterCredentialsSpecial() {
         return Tasks.instrumented(RegisterSpecialCharacters.class);
     }
 }

@@ -30,7 +30,7 @@ public class RegisterPage {
             .locatedBy("//div[@id='new_password-note']");
 
     public static final Target VALIDATE_EMPTY_SECOND_PASSWORD= Target.the("Mensaje para validar el ingreso de la contraseña en el segundo campo")
-            .locatedBy("//input[@placeholder='Confirma tu contraseña']");
+            .locatedBy("//div[@id='confirmed_password-note']");
 
 
 

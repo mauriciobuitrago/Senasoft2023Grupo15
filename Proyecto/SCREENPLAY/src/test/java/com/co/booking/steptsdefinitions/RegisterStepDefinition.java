@@ -1,9 +1,6 @@
 package com.co.booking.steptsdefinitions;
 
-import com.co.booking.questions.ValidationEmail;
-import com.co.booking.questions.ValidationEmptyField;
-import com.co.booking.questions.ValidationName;
-import com.co.booking.questions.ValidationPasswordEmptyFields;
+import com.co.booking.questions.*;
 import com.co.booking.task.*;
 import com.co.booking.userinterfaces.RegisterPage;
 import io.cucumber.java.Before;
@@ -99,6 +96,16 @@ public class RegisterStepDefinition {
     @Then("the user may see a warning about empty password fields")
     public void theUserMaySeeAWarningAboutEmptyPasswordFields() {
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationPasswordEmptyFields.compare()
+                , Matchers.is(true)));
+    }
+
+    @When("the user entered their email, leaves the second password field empty")
+    public void theUserEnteredTheirEmailLeavesTheSecondPasswordFieldEmpty() {
+        OnStage.theActorInTheSpotlight().attemptsTo(RegisterEmptySecondPasword.enterCredentials());
+    }
+    @Then("the user may see warning about empty second password field")
+    public void theUserMaySeeWarningAboutEmptySecondPasswordField() {
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationSecondPasswordEmptyField.compare()
                 , Matchers.is(true)));
     }
 
