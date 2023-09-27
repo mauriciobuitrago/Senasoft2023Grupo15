@@ -6,6 +6,7 @@ public class loginStep {
 
     loginPage loginPage = new loginPage();
 
+    // Scenario Login Succesful
     public void openBrowser() {
         loginPage.open();
     }
@@ -32,6 +33,16 @@ public class loginStep {
     }
     public void CLICKBUTTONMANAGEACCOUNT() {
         loginPage.getDriver().findElement(loginPage.getBUTTON_MANAGEACCOUNT()).click();
+    }
+
+    // Fail Login - Enter numer credentials on mail
+    public void SENDKEYS_INPUTMAIL_NUMBER() {
+        loginPage.getDriver().findElement(loginPage.getINPUT_MAIL()).sendKeys("123456789");
+    }
+
+    // Error Message
+    public void FIND_HEADER_MESSAGEERROR() {
+        loginPage.getDriver().findElement(loginPage.getHEADER_MESSAGEERROR()).isDisplayed();
     }
 
 }
