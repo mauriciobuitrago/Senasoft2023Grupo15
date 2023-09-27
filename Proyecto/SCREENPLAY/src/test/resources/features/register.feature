@@ -11,7 +11,8 @@ Feature: Register
     When the user entered numerical credentials in Email
     Then the user may see a warning
 
-  Scenario: registration failed due to special characters
+  Scenario: Failed registration empty fields in email
     Given the user is on the register page
-    When the user entered special characters in the Email
-    Then the user may see a warning
+    When The user did not enter data in the Email
+    Then the user can see a warning about the field
+
