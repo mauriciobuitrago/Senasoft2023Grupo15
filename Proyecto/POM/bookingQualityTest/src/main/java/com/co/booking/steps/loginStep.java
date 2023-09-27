@@ -28,21 +28,38 @@ public class loginStep {
     public void CLICKBUTTONPASS() {
         loginPage.getDriver().findElement(loginPage.getENTER_PASS_BUTTON()).click();
     }
-    public void CLICKBUTTONACCOUNT() {
-        loginPage.getDriver().findElement(loginPage.getBUTTONACCOUNT()).click();
-    }
-    public void CLICKBUTTONMANAGEACCOUNT() {
-        loginPage.getDriver().findElement(loginPage.getBUTTON_MANAGEACCOUNT()).click();
-    }
 
     // Fail Login - Enter numer credentials on mail
     public void SENDKEYS_INPUTMAIL_NUMBER() {
         loginPage.getDriver().findElement(loginPage.getINPUT_MAIL()).sendKeys("123456789");
     }
 
+    // Fail Login - The user enter special characters in email
+
+    public void SENDKEYS_INPUTMAIL_SPECIALCHARACTERS() {
+        loginPage.getDriver().findElement(loginPage.getINPUT_MAIL()).sendKeys("® Ø ă Ὠ ∞ √");
+    }
+
+    // Fail Login - The user enter wrong email
+
+    public void SENDKEYS_INPUTMAIL_WRONGMAIL() {
+        loginPage.getDriver().findElement(loginPage.getINPUT_MAIL()).sendKeys("andres.estudio.123@gmail");
+    }
+
+    // Fail Login - the user enter wrong pass
+
+    public void SENDKEYS_WRONGPASSWORD() {
+        loginPage.getDriver().findElement(loginPage.getINPUT_PASSWORD()).sendKeys("123456");
+    }
+
     // Error Message
     public void FIND_HEADER_MESSAGEERROR() {
         loginPage.getDriver().findElement(loginPage.getHEADER_MESSAGEERROR()).isDisplayed();
+    }
+
+    // Captcha Message
+    public void FIND_HEADER_MESSAGECAPTCHA() {
+        loginPage.getDriver().findElement(loginPage.getHEADER_CAPTCHA()).isDisplayed();
     }
 
 }
