@@ -8,8 +8,7 @@ public class MenuComponent {
             .locatedBy("//button [@class = 'a83ed08757 c21c56c305 f38b6daa18 d691166b09 ab98298258 deab83296e f4552b6561']");
     public static final Target BTN_REGISTER = Target.the("Clic boton de registro")
             .locatedBy("//a[@data-testid='header-sign-up-button']");
-    public static final Target VALIDATE_ACCOUNT = Target.the("Item para validar el registro o logueo")
-            .locatedBy("//*[text()='Tu cuenta']");
+
 
 
 

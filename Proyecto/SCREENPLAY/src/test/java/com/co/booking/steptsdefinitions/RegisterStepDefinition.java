@@ -43,7 +43,7 @@ public class RegisterStepDefinition {
     @Then("the user can see their account settings")
     public void TheUserCanSeeTheirAccountSettings() {
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationName.compare()
-                , Matchers.is("Tu cuenta")));
+                , Matchers.is("robot")));
     }
 
     @When("the user entered numerical credentials in Email")
@@ -56,10 +56,11 @@ public class RegisterStepDefinition {
                 , Matchers.is("Comprueba si el e-mail que has introducido es correcto")));
     }
 
-    @When("the user entered special characters in the Email")
+    @When("the user entered special characters in the email")
     public void theUserEnteredSpecialCharactersInTheEmail() {
-        OnStage.theActorInTheSpotlight().attemptsTo(RegisterFailSpecialcharacters.enterCredentialsSpecial());
+        OnStage.theActorInTheSpotlight().attemptsTo(RegisterSpecialCharacters.enterCredentialsSpecial());
     }
+
 
     @When("The user did not enter data in the Email")
     public void theUserDidNotEnterDataInTheEmail() {
@@ -72,4 +73,11 @@ public class RegisterStepDefinition {
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationEmptyField.compare()
                 , Matchers.is("Continuar con e-mail")));
     }
+
+    @When("the user entered incomplete credentials in the email field")
+    public void theUserEnteredIncompleteCredentialsInTheEmailField() {
+        OnStage.theActorInTheSpotlight().attemptsTo(RegisterFailIncompleteEmail.enterEmptyEmail());
+    }
+
+
 }
