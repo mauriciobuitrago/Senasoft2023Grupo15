@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b6688d46-24b7-4bde-bfea-19beaf5f6bfa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../POM/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/bookingQualityTest/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/bookingQualityTest/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/.gradle/8.2/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/.gradle/8.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/.gradle/8.2/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/.gradle/8.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/.gradle/8.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/classes/java/main/com/co/booking/pageobject/loginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/classes/java/main/com/co/booking/steps/loginStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/classes/java/test/com/co/booking/runners/loginRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/classes/java/test/com/co/booking/stepdefinitions/loginStepDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/reports/tests/test/classes/Login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/reports/tests/test/classes/com.co.booking.runners.loginRunner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/reports/tests/test/packages/com.co.booking.runners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/resources/test/drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/resources/test/features/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/test-results/test/TEST-Login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/test-results/test/TEST-com.co.booking.runners.loginRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/tmp/compileJava/compileTransaction/stash-dir/loginStep.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/tmp/compileTestJava/compileTransaction/stash-dir/loginStepDefinition.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookingQualityTest/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2Vymkb4N19riL9Q2MHvGiE5e1GQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrador/Documents/GitHub/Senasoft2023Grupo15/Proyecto/SCREENPLAY&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Administrador/Downloads/Team15_Booking/src/main/java/org/example/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrador\Downloads\Team15_Booking\src\test\resources\drivers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.RegisterRunner">
+    <configuration name="RegisterRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.co.booking.runners.RegisterRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'com.co.booking.runners'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.co.booking.runners.*&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.RegisterRunner" />
+        <item itemvalue="Gradle.Tests in 'com.co.booking.runners'" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6688d46-24b7-4bde-bfea-19beaf5f6bfa" name="Changes" comment="" />
+      <created>1695816842575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695816842575</updated>
+      <workItem from="1695816843507" duration="3577000" />
+      <workItem from="1695820453609" duration="1106000" />
+      <workItem from="1695821569094" duration="6694000" />
+      <workItem from="1695829834865" duration="208000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
