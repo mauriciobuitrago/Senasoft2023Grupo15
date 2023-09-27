@@ -2,7 +2,7 @@ package com.co.booking.userinterfaces;
 
 import net.serenitybdd.screenplay.targets.Target;
 
-public class languagePage {
+public class LanguagePage {
 
     // OPTION - ENGLISH US LANGUAGE
 

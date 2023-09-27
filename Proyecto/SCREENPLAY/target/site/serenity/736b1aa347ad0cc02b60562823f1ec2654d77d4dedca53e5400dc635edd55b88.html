@@ -148,7 +148,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"Register","type":"feature","href":"736b1aa347ad0cc02b60562823f1ec2654d77d4dedca53e5400dc635edd55b88.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-check-circle-o success-icon \u0027 title\u003d\u0027SUCCESS\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e8 scenarios\u003c/span\u003e"]}];
+            var requirementsTree = [{"text":"Register","type":"feature","href":"736b1aa347ad0cc02b60562823f1ec2654d77d4dedca53e5400dc635edd55b88.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-times-circle failure-icon \u0027 title\u003d\u0027FAILURE\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e8 scenarios\u003c/span\u003e"]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -295,37 +295,6 @@
                                                                                             <td>
                                                                                                 <a style="margin-left:0.5em;padding-right: 1.5em;"
                                                                                                    href="185aa47d78e7ccce342c1ef1496a4fd64520a9ba7ea797b0ba0c0b7e1fdab776.html"
-                                                                                                   title="View test results">
-                                                                                                    <i class="fas fa-search-plus"></i>
-                                                                                                </a>
-                                                                                            </td>
-                                                                                    </tr>
-                                                                                </table>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td style="width:95%;" class="toc-title">
-                                                                                <span class="orphan-scenario-toc-entry">
-                                                                                    <a href="#6d81ea84a6fc05046f442e1c879fe823d70e7f389c7f045392b328232007b0e9" title="View scenario details">
-                                                                                        <i class="far fa-comment-dots"></i> Acceptance Test: Failed to register, empty fields in enter password
-                                                                                    </a>
-                                                                                </span>
-                                                                            </td>
-                                                                            <td style="width:5%;">
-                                                                                <table>
-                                                                                    <tr>
-                                                                                        <td>
-                                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                                               href="76b69c51110b217a46b7457527464829e0c93bb303b2a43407cc5163cdd8b064.html"
-                                                                                               title="View test results">
-                                                                                                <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                                                                                </a>
-
-
-                                                                                        </td>
-                                                                                            <td>
-                                                                                                <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                                                   href="76b69c51110b217a46b7457527464829e0c93bb303b2a43407cc5163cdd8b064.html"
                                                                                                    title="View test results">
                                                                                                     <i class="fas fa-search-plus"></i>
                                                                                                 </a>
@@ -520,13 +489,44 @@
                                                                                 </table>
                                                                             </td>
                                                                         </tr>
+                                                                        <tr>
+                                                                            <td style="width:95%;" class="toc-title">
+                                                                                <span class="orphan-scenario-toc-entry">
+                                                                                    <a href="#6d81ea84a6fc05046f442e1c879fe823d70e7f389c7f045392b328232007b0e9" title="View scenario details">
+                                                                                        <i class="far fa-comment-dots"></i> Acceptance Test: Failed to register, empty fields in enter password
+                                                                                    </a>
+                                                                                </span>
+                                                                            </td>
+                                                                            <td style="width:5%;">
+                                                                                <table>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
+                                                                                               href="76b69c51110b217a46b7457527464829e0c93bb303b2a43407cc5163cdd8b064.html"
+                                                                                               title="View test results">
+                                                                                                <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                                                                                </a>
+
+
+                                                                                        </td>
+                                                                                            <td>
+                                                                                                <a style="margin-left:0.5em;padding-right: 1.5em;"
+                                                                                                   href="76b69c51110b217a46b7457527464829e0c93bb303b2a43407cc5163cdd8b064.html"
+                                                                                                   title="View test results">
+                                                                                                    <i class="fas fa-search-plus"></i>
+                                                                                                </a>
+                                                                                            </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
                                                         </table>
                                                     </div>
                                                     <!--- END OF TOC --->
 
                                                     <h3>Scenarios</h3>
 
-                                                        <a name="b9a41e88-89c1-46aa-a9f8-f3e43a776d21" ></a>
+                                                        <a name="8c4441a5-b671-4917-9b37-e2a1af3cbbc6" ></a>
 
 
                                                             <div class="scenario-docs card" id="18d940a065e1941c5bab91e3f84b95bd92f5831499ba92d81c6e5570af752587">
@@ -548,30 +548,6 @@
                                                                         <p>Given the user is on the register page</p>
                                                                         <p>When the user entered special characters in the Email</p>
                                                                         <p>Then the user may see a warning</p>
-                                                                    <div class="examples">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="scenario-docs card" id="6d81ea84a6fc05046f442e1c879fe823d70e7f389c7f045392b328232007b0e9">
-                                                                <div class="scenario-docs card-header success"
-                                                                     style="min-height:1.5em;">
-                                                                    <div>
-                                                            <span class="scenario-heading">
-                                                                <a href="76b69c51110b217a46b7457527464829e0c93bb303b2a43407cc5163cdd8b064.html"
-                                                                   title="View test results">Acceptance Test: Failed to register, empty fields in enter password</a>
-                                                            </span>
-                                                                        <span class="scenario-result-icon">
-                                                                
-
-                                                                                <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                                            </span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="scenario-docs card-body">
-                                                                        <p>Given the user is on the register page</p>
-                                                                        <p>When the user entered their email, leaves an empty password field</p>
-                                                                        <p>Then the user may see a warning about empty password fields</p>
                                                                     <div class="examples">
                                                                     </div>
                                                                 </div>
@@ -720,6 +696,30 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
+
+                                                            <div class="scenario-docs card" id="6d81ea84a6fc05046f442e1c879fe823d70e7f389c7f045392b328232007b0e9">
+                                                                <div class="scenario-docs card-header failure"
+                                                                     style="min-height:1.5em;">
+                                                                    <div>
+                                                            <span class="scenario-heading">
+                                                                <a href="76b69c51110b217a46b7457527464829e0c93bb303b2a43407cc5163cdd8b064.html"
+                                                                   title="View test results">Acceptance Test: Failed to register, empty fields in enter password</a>
+                                                            </span>
+                                                                        <span class="scenario-result-icon">
+                                                                
+
+                                                                                <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                                            </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="scenario-docs card-body">
+                                                                        <p>Given the user is on the register page</p>
+                                                                        <p>When the user entered their email, leaves an empty password field</p>
+                                                                        <p>Then the user may see a warning about empty password fields</p>
+                                                                    <div class="examples">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                             </div>
                                         </div>
                                     </div>
@@ -735,10 +735,10 @@
                                                 </div>
                                                 <script>
 
-                                                    var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+                                                    var labels = ['88%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '13%', ' ', ' ', ' ', ' ', ' '];
                                                     // Our series array that contains series objects or in this case series data arrays
 
-                                                    var series = [{meta: 'Passing tests (automated)', value: 8}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                    var series = [{meta: 'Passing tests (automated)', value: 7}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 1}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                     // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                     // as you saw in the previous example
@@ -781,8 +781,8 @@
                                                                     <a href="d3d6c47cef8149130b1665e852c7d1e4cdac6b715264dac91417b64d66f4ae72.html"><i
                                                                                 class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                 </td>
-                                                            <td class="automated-stats">8</td>
-                                                            <td class="automated-stats">100%</td>
+                                                            <td class="automated-stats">7</td>
+                                                            <td class="automated-stats">88%</td>
                                                         </tr>
                                                         <tr>
                                                                 <td class="aggregate-result-count"><i
@@ -806,19 +806,19 @@
                                                             <td class="automated-stats"> </td>
                                                         </tr>
                                                         <tr>
-                                                                    <td colspan="3"><i
-                                                                                class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                                    <td colspan="3"><a href="a4af529cc7d43fa06d6c39e730831a34f1c95f3cc0380be6479be86141740b95.html"><i
+                                                                                    class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
                                                                     </td>
 
                                                         </tr>
 
                                                         <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
-                                                                    <i
-                                                                            class='fa fa-times-circle failure-icon'></i>&nbsp;Failed
+                                                                    <a href="ae216e1beef205df5820e4359b9dc76d58b3f4a2beb7be0323d4fe116cb7b122.html"><i
+                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
                                                                 </td>
-                                                            <td class="automated-stats">0</td>
-                                                            <td class="automated-stats"> </td>
+                                                            <td class="automated-stats">1</td>
+                                                            <td class="automated-stats">13%</td>
                                                         <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -858,10 +858,10 @@
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                            <td> 1m 58s</td>
-                                                            <td> 5h  44m 22s</td>
-                                                            <td>12s</td>
-                                                            <td>19s</td>
+                                                            <td> 1m 52s</td>
+                                                            <td> 6h  5m 21s</td>
+                                                            <td>11s</td>
+                                                            <td>18s</td>
                                                             <td>14s</td>
                                                         </tr>
                                                         </tbody>
@@ -900,23 +900,11 @@
                                                                 </tr>
                                                                 <tr class="scenario-result SUCCESS">
                                                                     <td>
-                                                                            <a href="76b69c51110b217a46b7457527464829e0c93bb303b2a43407cc5163cdd8b064.html">Failed to register, empty fields in enter password</a>
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                    <td>17:43:29</td>
-                                                                    <td>19s 587ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                                style="display:none">SUCCESS</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result SUCCESS">
-                                                                    <td>
                                                                             <a href="ee496bf8df934240c146bc748badd869533506a3f798d09a623397ddaf1fa13e.html">Successful register</a>
                                                                     </td>
                                                                     <td>3</td>
-                                                                    <td>17:43:50</td>
-                                                                    <td>18s 008ms</td>
+                                                                    <td>18:04:33</td>
+                                                                    <td>18s 223ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>
@@ -927,8 +915,8 @@
                                                                             <a href="86ef707a58d58eb75717974a156bd4560288f1283eb7cf021bbc7bc220b4a5b4.html">Failed registration due to numerical data</a>
                                                                     </td>
                                                                     <td>3</td>
-                                                                    <td>17:44:09</td>
-                                                                    <td>13s 780ms</td>
+                                                                    <td>18:04:52</td>
+                                                                    <td>12s 701ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>
@@ -939,8 +927,8 @@
                                                                             <a href="fb87d9268ccbbb26cb00b13047208c3f3ebf0fe23f65df5c565ce0dca75f495c.html">Failed Registration due to special characters</a>
                                                                     </td>
                                                                     <td>3</td>
-                                                                    <td>17:44:23</td>
-                                                                    <td>12s 219ms</td>
+                                                                    <td>18:05:05</td>
+                                                                    <td>11s 921ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>
@@ -951,8 +939,8 @@
                                                                             <a href="194caae6b876f5cb6e8b6323c034e86a1286843f90c1d638eac53bea0557d140.html">Register Fail</a>
                                                                     </td>
                                                                     <td>3</td>
-                                                                    <td>17:44:36</td>
-                                                                    <td>12s 634ms</td>
+                                                                    <td>18:05:18</td>
+                                                                    <td>12s 226ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>
@@ -963,8 +951,8 @@
                                                                             <a href="67500787b58373e936a54659075e31117267ba67a7c8c283defe9ee47acad830.html">Failed registration empty fields in email</a>
                                                                     </td>
                                                                     <td>3</td>
-                                                                    <td>17:44:49</td>
-                                                                    <td>14s 911ms</td>
+                                                                    <td>18:05:31</td>
+                                                                    <td>14s 886ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>
@@ -975,11 +963,23 @@
                                                                             <a href="e5fcd4bafdda37d39d5c48644eb8edf8fe2c324dc568ff1aa13890830c766938.html">Registration failed, empty password fields</a>
                                                                     </td>
                                                                     <td>3</td>
-                                                                    <td>17:45:05</td>
-                                                                    <td>14s 707ms</td>
+                                                                    <td>18:05:47</td>
+                                                                    <td>15s 840ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="scenario-result FAILURE">
+                                                                    <td>
+                                                                            <a href="76b69c51110b217a46b7457527464829e0c93bb303b2a43407cc5163cdd8b064.html">Failed to register, empty fields in enter password</a>
+                                                                    </td>
+                                                                    <td>3</td>
+                                                                    <td>18:06:03</td>
+                                                                    <td>14s 415ms</td>
+                                                                    <td>
+                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                style="display:none">FAILURE</span>
                                                                     </td>
                                                                 </tr>
                                                             </tbody>
