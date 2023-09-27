@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b6688d46-24b7-4bde-bfea-19beaf5f6bfa" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/co/booking/questions/ValidationPasswordEmptyFields.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/co/booking/task/RegisterEmptyFirtsPasword.java" afterDir="false" />
@@ -68,6 +69,9 @@
       <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
     </list>
+=======
+    <list default="true" id="8a9b04dc-fed8-4760-9c47-cd62fc27c01a" name="Changes" comment="" />
+>>>>>>> 01bc48e312b54c243ce62977c528ccc9590f3ee5
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,9 +104,10 @@
       </list>
     </option>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -178,6 +183,16 @@
       </method>
     </configuration>
     <configuration name="RegisterRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AdminSena/Documents/GitHub/Senasoft2023Grupo15/Proyecto/SCREENPLAY&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="changeLanguagesRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+>>>>>>> 01bc48e312b54c243ce62977c528ccc9590f3ee5
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -190,6 +205,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
+<<<<<<< HEAD
             <option value="&quot;com.co.booking.runners.RegisterRunner&quot;" />
           </list>
         </option>
@@ -235,6 +251,9 @@
         <option name="taskNames">
           <list>
             <option value="checkOutcomes" />
+=======
+            <option value="&quot;com.co.booking.runners.changeLanguagesRunner&quot;" />
+>>>>>>> 01bc48e312b54c243ce62977c528ccc9590f3ee5
           </list>
         </option>
         <option name="vmOptions" />
@@ -247,51 +266,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Gradle.SCREENPLAY [aggregate]" />
         <item itemvalue="Gradle.SCREENPLAY [checkOutcomes]" />
         <item itemvalue="Gradle.RegisterRunner" />
         <item itemvalue="Cucumber Java.Scenario: Registration failed, empty password fields" />
         <item itemvalue="Cucumber Java.Scenario: Failed registration due to numerical data" />
+=======
+        <item itemvalue="Gradle.changeLanguagesRunner" />
+>>>>>>> 01bc48e312b54c243ce62977c528ccc9590f3ee5
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="b6688d46-24b7-4bde-bfea-19beaf5f6bfa" name="Changes" comment="" />
-      <created>1695816842575</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1695816842575</updated>
-      <workItem from="1695816843507" duration="3577000" />
-      <workItem from="1695820453609" duration="1106000" />
-      <workItem from="1695821569094" duration="6694000" />
-    </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
