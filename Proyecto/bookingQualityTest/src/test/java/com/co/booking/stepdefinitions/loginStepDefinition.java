@@ -19,18 +19,8 @@ public class loginStepDefinition {
         loginStep.CLOSEPOPPUPBUTTON();
         loginStep.CLICKLOGINBUTTON();
         loginStep.SENDKEYSINPUTMAIL();
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
         loginStep.CLICKENTERMAILBUTTON();
         loginStep.SENDKEYSPASSWORD();
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
         loginStep.CLICKBUTTONPASS();
 
     }
