@@ -9,6 +9,7 @@ repositories {
     mavenCentral()
     jcenter()
 }
+
 ext{
     serenityCoreVersion = "2.4.34"
     serenityCucumberVersion = "2.4.34"
