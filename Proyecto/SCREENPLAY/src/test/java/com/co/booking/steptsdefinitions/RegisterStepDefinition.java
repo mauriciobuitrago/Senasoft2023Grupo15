@@ -4,6 +4,7 @@ import com.co.booking.questions.ValidationEmail;
 import com.co.booking.questions.ValidationName;
 import com.co.booking.task.Register;
 import com.co.booking.task.RegisterFailNumbers;
+import com.co.booking.task.RegisterFailSpecialcharacters;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -54,6 +55,12 @@ public class RegisterStepDefinition {
     public void theUserMaySeeAWarning() {
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationEmail.compare()
                 , Matchers.is("Comprueba si el e-mail que has introducido es correcto")));
+    }
+
+    @When("the user entered special characters in the Email")
+    public void theUserEnteredSpecialCharactersInTheEmail() {
+        OnStage.theActorInTheSpotlight().attemptsTo(RegisterFailSpecialcharacters.enterCredentialsSpecial());
+
     }
 
 }

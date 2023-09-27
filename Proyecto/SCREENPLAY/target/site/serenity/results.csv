@@ -1,3 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Register","Successful register","FAILURE","2023-09-27T11:46:09.872-05:00[America/Bogota]","0.0","23.78"
-"Register","Failed registration due to numerical data","SUCCESS","2023-09-27T11:46:34.792-05:00[America/Bogota]","0.0","13.28"
+"Register","Successful register","FAILURE","2023-09-27T11:59:56.347-05:00[America/Bogota]","0.0","31.93"
+"Register","Failed registration due to numerical data","SUCCESS","2023-09-27T12:00:29.332-05:00[America/Bogota]","0.0","12.66"
+"Register","registration failed due to special characters","SUCCESS","2023-09-27T12:00:42.761-05:00[America/Bogota]","0.0","12.57"
