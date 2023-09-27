@@ -27,7 +27,7 @@ public class loginStepDefinition {
         loginStep.SENDKEYSPASSWORD();
         loginStep.CLICKBUTTONPASS();
         try {
-            Thread.sleep(60000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -47,7 +47,7 @@ public class loginStepDefinition {
         loginStep.SENDKEYS_INPUTMAIL_NUMBER();
         loginStep.CLICKENTERMAILBUTTON();
         try {
-            Thread.sleep(6000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -62,7 +62,7 @@ public class loginStepDefinition {
         loginStep.SENDKEYS_INPUTMAIL_SPECIALCHARACTERS();
         loginStep.CLICKENTERMAILBUTTON();
         try {
-            Thread.sleep(6000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -77,7 +77,7 @@ public class loginStepDefinition {
         loginStep.SENDKEYS_INPUTMAIL_WRONGMAIL();
         loginStep.CLICKENTERMAILBUTTON();
         try {
-            Thread.sleep(6000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -94,7 +94,7 @@ public class loginStepDefinition {
         loginStep.SENDKEYS_WRONGPASSWORD();
         loginStep.CLICKBUTTONPASS();
         try {
-            Thread.sleep(6000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -108,7 +108,7 @@ public class loginStepDefinition {
         loginStep.CLICKLOGINBUTTON();
         loginStep.CLICKENTERMAILBUTTON();
         try {
-            Thread.sleep(6000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -124,7 +124,7 @@ public class loginStepDefinition {
         loginStep.CLICKENTERMAILBUTTON();
         loginStep.CLICKBUTTONPASS();
         try {
-            Thread.sleep(6000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
