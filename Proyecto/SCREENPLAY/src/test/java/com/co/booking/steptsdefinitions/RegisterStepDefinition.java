@@ -43,7 +43,7 @@ public class RegisterStepDefinition {
     @Then("the user can see their account settings")
     public void TheUserCanSeeTheirAccountSettings() {
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationName.compare()
-                , Matchers.is("robot")));
+                , Matchers.is("Crea una contraseña")));
     }
 
     @When("the user entered numerical credentials in Email")
@@ -79,5 +79,13 @@ public class RegisterStepDefinition {
         OnStage.theActorInTheSpotlight().attemptsTo(RegisterFailIncompleteEmail.enterEmptyEmail());
     }
 
+    @When("the user entered his Email, password field empty")
+    public void theUserEnteredHisEmailPasswordFieldEmpty() {
+      OnStage.theActorInTheSpotlight().attemptsTo();
 
+    }
+    @Then("the user can see a warning about the password fields")
+    public void theUserCanSeeAWarningAboutThePasswordFields() {
+
+    }
 }

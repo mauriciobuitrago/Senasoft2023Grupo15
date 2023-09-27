@@ -27,3 +27,8 @@ Feature: Register
     When The user did not enter data in the Email
     Then the user can see a warning about the field
 
+  Scenario: Registration failed, empty password fields
+    Given the user is on the register page
+    When the user entered his Email, password field empty
+    Then the user can see a warning about the password fields
+

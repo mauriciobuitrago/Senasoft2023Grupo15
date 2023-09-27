@@ -24,7 +24,7 @@ public class RegisterPage {
             .locatedBy("//*[text()='Continuar con e-mail']");
 
     public static final Target VALIDATE_ACCOUNT = Target.the("Item para validar el registro ")
-            .locatedBy("//*[text()='robot']");
+            .locatedBy("//*[text()='Crea una contraseña']");
 
 
 }
