@@ -15,11 +15,12 @@ public class RegisterFailNumbers implements Task {
 
         actor.attemptsTo(Click.on(MenuComponent.CLOSE_POPPUP_BUTTON));
         actor.attemptsTo(Click.on(MenuComponent.BTN_REGISTER));
-        actor.attemptsTo(Enter.theValue("jagarcia8578@soy.sena.edu").into(RegisterPage.TXT_EMAIL));
+        actor.attemptsTo(Enter.theValue("123456789").into(RegisterPage.TXT_EMAIL));
+        actor.attemptsTo(Click.on(RegisterPage.BTN_CONTINUE_REGISTER));
     }
 
-    public static Register enterCredentials ()
+    public static RegisterFailNumbers enterCredentialsNumbers ()
     {
-        return Tasks.instrumented(Register.class);
+        return Tasks.instrumented(RegisterFailNumbers.class);
     }
 }
