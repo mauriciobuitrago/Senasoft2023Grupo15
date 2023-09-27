@@ -117,6 +117,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'com.co.booking.runners'" />
+        <item itemvalue="Gradle.RegisterRunner" />
         <item itemvalue="Gradle.RegisterRunner" />
         <item itemvalue="Gradle.Tests in 'com.co.booking.runners'" />
       </list>
