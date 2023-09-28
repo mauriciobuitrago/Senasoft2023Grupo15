@@ -47,11 +47,6 @@ Feature: Change page language
     When the user changes the language to Mandarin
     Then the user observes that the page is translated into Mandarin
 
-  Scenario: Validation of language change to "Russian"
-    Given the user is on the page
-    When the user changes the language to Russian
-    Then the user observes that the page is translated into Russian
-
   Scenario: Validation of language change to "Greek"
     Given the user is on the page
     When the user changes the language to Greek

@@ -1,7 +1,20 @@
 Feature: Register
   The user register in to the website
 
+<<<<<<< HEAD
  Scenario: Successful register
+=======
+  Scenario: Failed to register, empty fields in confirm password
+    Given the user is on the register page
+    When the user entered their email, leaves the second password field empty
+    Then the user may see warning about empty second password field
+
+
+
+
+
+  Scenario: Successful register
+>>>>>>> ffe75f30bbb8fad93366616aa0944923f509e948
     Given the user is on the register page
     When the user entered your credentials
     Then the user can see their account settings
@@ -36,11 +49,14 @@ Feature: Register
     Given the user is on the register page
     When the user entered their email, leaves an empty password field
     Then the user may see a warning about empty password fields
+<<<<<<< HEAD
 
   Scenario: Failed to register, empty fields in confirm password
     Given the user is on the register page
     When the user entered their email, leaves the second password field empty
     Then the user may see warning about empty second password field
+=======
+>>>>>>> ffe75f30bbb8fad93366616aa0944923f509e948
 
 
 

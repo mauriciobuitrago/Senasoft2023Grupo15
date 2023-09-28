@@ -1,7 +1,10 @@
 package com.co.booking.steptsdefinitions;
 
 import com.co.booking.questions.ValidationLanguageEnglish;
+import com.co.booking.questions.ValidationLanguageEnglishUK;
 import com.co.booking.task.ChangeLanguageEnglish;
+import com.co.booking.task.ChangeLanguageEnglishUK;
+import com.co.booking.task.ChangeLanguageFrench;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -34,28 +37,30 @@ public class changeLanguagesStepDefinition {
 
     @Then("the user observes that the page is translated into English")
     public void theUserObservesThatThePageIsTranslatedIntoEnglish() {
-        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguageEnglish.compare(),
-                Matchers.is(true)));
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguageEnglish.compare()
+                , Matchers.is("Find your next stay")));
     }
 
     @When("the user changes the language to English UK")
     public void theUserChangesTheLanguageToEnglishUK() {
-
+        OnStage.theActorInTheSpotlight().attemptsTo(ChangeLanguageEnglishUK.changeEnglishUK());
     }
 
     @Then("the user observes that the page is translated into English UK")
     public void theUserObservesThatThePageIsTranslatedIntoEnglishUK() {
-
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguageEnglishUK.compare()
+                , Matchers.is("Search low prices on hotels, homes and much more...")));
     }
 
     @When("the user changes the language to French")
     public void theUserChangesTheLanguageToFrench() {
-
+        OnStage.theActorInTheSpotlight().attemptsTo(ChangeLanguageFrench.changeEnglishFrench());
     }
 
     @Then("the user observes that the page is translated into French")
     public void theUserObservesThatThePageIsTranslatedIntoFrench() {
-
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguageEnglishUK.compare()
+                , Matchers.is("Search low prices on hotels, homes and much more...")));
     }
 
     @When("the user changes the language to German")
@@ -114,16 +119,6 @@ public class changeLanguagesStepDefinition {
 
     @Then("the user observes that the page is translated into Mandarin")
     public void theUserObservesThatThePageIsTranslatedIntoMandarin() {
-
-    }
-
-    @When("the user changes the language to Russian")
-    public void theUserChangesTheLanguageToRussian() {
-
-    }
-
-    @Then("the user observes that the page is translated into Russian")
-    public void theUserObservesThatThePageIsTranslatedIntoRussian() {
 
     }
 
