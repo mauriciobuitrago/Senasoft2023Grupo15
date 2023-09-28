@@ -154,7 +154,11 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
+<<<<<<< HEAD
     <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 28-09-2023 10:27</span>
+=======
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 28-09-2023 10:26</span>
+>>>>>>> caaed54c91c17ec7c90f7b7ae1e2aef20b223859
     <br style="clear:left"/>
 </div>
 
@@ -189,9 +193,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Successful reservation
+                                <span class="failing-color">Successful reservation
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -208,8 +212,55 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be present exception: Expected condition failed: waiting for By.xpath: //select[@id = ':r10:'] to be present (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-AM3VRUH', ip: '172.18.1.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.co.booking.task.Reservation.performAs(Reservation.java:30)<br />com.co.booking.steptsdefinitions.ReservationStepDefinition.theUserEntersHisCredentialsAndSearchedForTheReservation(ReservationStepDefinition.java:28)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.xpath: //select[@id = ':r10:'] to be present (tried for 5 second(s) with 100 milliseconds interval)<br>Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'<br>System info: host: 'DESKTOP-AM3VRUH', ip: '172.18.1.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'<br>Driver info: driver.version: unknown</pre>
+                        <pre>com.co.booking.task.Reservation.performAs(Reservation.java :30)<br />com.co.booking.steptsdefinitions.ReservationStepDefinition.theUserEntersHisCredentialsAndSearchedForTheReservation(ReservationStepDefinition.java :28)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java :66)<br />io.cucumber.java.Invoker.invoke(Invoker.java :24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java :47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java :29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java :66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java :63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java :92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java :51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :57)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java :69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java :74)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource4899876368668758826.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
+<<<<<<< HEAD
                 <img src="7472f57bea2f23498b3c1ce6cdcb1ff77e9e5e3fdc0141e82b8be3d554a57f0a.png" title=" Given the user is on the register page" width="1366"/>
                 <img src="7472f57bea2f23498b3c1ce6cdcb1ff77e9e5e3fdc0141e82b8be3d554a57f0a.png" title=" Team15 opens the https://www.booking.com/" width="1366"/>
                 <img src="7472f57bea2f23498b3c1ce6cdcb1ff77e9e5e3fdc0141e82b8be3d554a57f0a.png" title=" Given the user is on the register page (completed)" width="1366"/>
@@ -247,6 +298,37 @@
                 <img src="b27d19063d83fe36fa4e94debf8b6299d7d6a2eeaa6035c4d3be2a25b4a05565.png" title=" Team15 reservation (completed)" width="1366"/>
                 <img src="b27d19063d83fe36fa4e94debf8b6299d7d6a2eeaa6035c4d3be2a25b4a05565.png" title=" When the user enters his credentials and searched for the reservation (completed)" width="1366"/>
                 <img src="b27d19063d83fe36fa4e94debf8b6299d7d6a2eeaa6035c4d3be2a25b4a05565.png" title=" Then the user can see the reservation cancellation interface: <span class='success-color'>SUCCESS</span>" width="1366"/>
+=======
+                <img src="4597a8e88da9bde4e044cd9b27a047d8333fc8200e6586d1dd605b1e060939c3.png" title=" Given the user is on the register page" width="1366"/>
+                <img src="4597a8e88da9bde4e044cd9b27a047d8333fc8200e6586d1dd605b1e060939c3.png" title=" Team15 opens the https://www.booking.com/" width="1366"/>
+                <img src="4597a8e88da9bde4e044cd9b27a047d8333fc8200e6586d1dd605b1e060939c3.png" title=" Given the user is on the register page (completed)" width="1366"/>
+                <img src="9ae6506d22fb2142d98cfc8650a5048bfaddbd611f6fa40d68a49f1aace773ca.png" title=" When the user enters his credentials and searched for the reservation" width="1366"/>
+                <img src="9ae6506d22fb2142d98cfc8650a5048bfaddbd611f6fa40d68a49f1aace773ca.png" title=" Team15 reservation" width="1366"/>
+                <img src="9ae6506d22fb2142d98cfc8650a5048bfaddbd611f6fa40d68a49f1aace773ca.png" title=" Team15 clicks on Clic para cerrar anuncio" width="1366"/>
+                <img src="3b1db6096ceca53dfe99b8027123dd0d9d2a5e747560fb59d584c21b83a6848d.png" title=" Team15 clicks on Clic para cerrar anuncio (completed)" width="1366"/>
+                <img src="d7c4d0265650a386f0c558d6ae5e445bdad62c5ee580af87aa28b77a9fccc862.png" title=" Team15 clicks on Ingresar lugar de reserva" width="1366"/>
+                <img src="463784edd386a60686ec2ec34434e2d391cf23e34eedbceea189847af1832636.png" title=" Team15 clicks on Ingresar lugar de reserva (completed)" width="1366"/>
+                <img src="463784edd386a60686ec2ec34434e2d391cf23e34eedbceea189847af1832636.png" title=" Team15 clicks on Selecionar SantaMarta" width="1366"/>
+                <img src="471d8e96da2469227b2acc5ecb9a2d55c554d353d3168efa194c06780a38f24e.png" title=" Team15 clicks on Selecionar SantaMarta (completed)" width="1366"/>
+                <img src="471d8e96da2469227b2acc5ecb9a2d55c554d353d3168efa194c06780a38f24e.png" title=" Team15 clicks on Boton clic en el primer dia" width="1366"/>
+                <img src="a42f53e891209579e6f183edda2b24884763f79c9165bf4e7685f453eed5afc1.png" title=" Team15 clicks on Boton clic en el primer dia (completed)" width="1366"/>
+                <img src="a42f53e891209579e6f183edda2b24884763f79c9165bf4e7685f453eed5afc1.png" title=" Team15 clicks on Boton clic en la fecha final" width="1366"/>
+                <img src="53fcb3832ee60921e7d8a20d65ba14f3bf2aa0df5b171f9b0dc663b5e8c2efab.png" title=" Team15 clicks on Boton clic en la fecha final (completed)" width="1366"/>
+                <img src="53fcb3832ee60921e7d8a20d65ba14f3bf2aa0df5b171f9b0dc663b5e8c2efab.png" title=" Team15 clicks on Hacer clic en el calendario" width="1366"/>
+                <img src="384787a3a878952f6f446de54af7ca6d96406838121b5528b65a1977e913f49c.png" title=" Team15 clicks on Hacer clic en el calendario (completed)" width="1366"/>
+                <img src="384787a3a878952f6f446de54af7ca6d96406838121b5528b65a1977e913f49c.png" title=" Team15 clicks on Boton cantidad de personas" width="1366"/>
+                <img src="3acdb1dda2acbf39f29084581636ea5614a0240f404a7a7cacf217c438afadf4.png" title=" Team15 clicks on Boton cantidad de personas (completed)" width="1366"/>
+                <img src="3acdb1dda2acbf39f29084581636ea5614a0240f404a7a7cacf217c438afadf4.png" title=" Team15 clicks on Cantidad de personas" width="1366"/>
+                <img src="0fe9f801de549089ff4f48dc212bcb1a5185b8c66d9d102c5e671e65772addce.png" title=" Team15 clicks on Cantidad de personas (completed)" width="1366"/>
+                <img src="0fe9f801de549089ff4f48dc212bcb1a5185b8c66d9d102c5e671e65772addce.png" title=" Team15 clicks on Cantidad de ni&Atilde;&plusmn;os" width="1366"/>
+                <img src="84fdf64fc4f1fbaa88ee0d26654d08ea1bd426a548faaac56de801bba24edb2d.png" title=" Team15 clicks on Cantidad de ni&Atilde;&plusmn;os (completed)" width="1366"/>
+                <img src="84fdf64fc4f1fbaa88ee0d26654d08ea1bd426a548faaac56de801bba24edb2d.png" title=" Team15 clicks on Boton para escoger la edad del primer ni&Atilde;&plusmn;o" width="1366"/>
+                <img src="46bea9c97b2258231144f1afbe97903433229950f11cd5206b829c79fcf8229d.png" title=" Team15 clicks on Boton para escoger la edad del primer ni&Atilde;&plusmn;o (completed)" width="1366"/>
+                <img src="46bea9c97b2258231144f1afbe97903433229950f11cd5206b829c79fcf8229d.png" title=" Team15 clicks on Boton para escoger la edad del primer ni&Atilde;&plusmn;o" width="1366"/>
+                <img src="35848d8b142faa780d49caef9d41e1cb750b014da11f516865a1566b87ced187.png" title=" Team15 clicks on Boton para escoger la edad del primer ni&Atilde;&plusmn;o (completed)" width="1366"/>
+                <img src="35848d8b142faa780d49caef9d41e1cb750b014da11f516865a1566b87ced187.png" title=" Team15 clicks on Boton para escoger la edad del segundo ni&Atilde;&plusmn;o" width="1366"/>
+                <img src="35848d8b142faa780d49caef9d41e1cb750b014da11f516865a1566b87ced187.png" title=" Team15 clicks on Boton para escoger la edad del segundo ni&Atilde;&plusmn;o (completed): <span class='failing-color'>FAILURE</span>" width="1366"/>
+>>>>>>> caaed54c91c17ec7c90f7b7ae1e2aef20b223859
             </div>
         </div>
 
