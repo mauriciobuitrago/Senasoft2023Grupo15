@@ -31,7 +31,7 @@ public class LanguagePage {
     // OPTION - French LANGUAGE
 
     public static final Target BTN_ENGLISH_French = Target.the("Français").
-            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'Français')]");
+            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'Fran')]");
 
     // CONFIRMATION OF CHANGE OF LANGUAGE TO French
 
@@ -42,8 +42,8 @@ public class LanguagePage {
 
     // OPTION - PORTUGUESE LANGUAGE
 
-    public static final Target BTN_PORTUGUESBR = Target.the("Português (BR)").
-            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'Português (BR)')]");
+    public static final Target BTN_PORTUGUESBR = Target.the("Portug (BR)").
+            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'(BR)')]");
 
     // CONFIRMATION OF CHANGE OF LANGUAGE TO PORTUGUESE
 
@@ -54,7 +54,7 @@ public class LanguagePage {
 
     // OPTION - PORTUGUESE PT LANGUAGE
 
-    public static final Target BTN_PortuguêspPT = Target.the("Português (PT)").
+    public static final Target BTN_PortuguêspPT = Target.the("(PT)").
             locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'Português (PT)')]");
 
     // CONFIRMATION OF CHANGE OF LANGUAGE TO PortuguêspPT
@@ -78,8 +78,8 @@ public class LanguagePage {
 
     // OPTION - JAPANESE LANGUAGE
 
-    public static final Target BTN_JAPANESE = Target.the("Italiano").
-            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'Italiano')]");
+    public static final Target BTN_JAPANESE = Target.the("Japanese").
+            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'日本語')]");
 
     // CONFIRMATION OF CHANGE OF LANGUAGE TO JAPANESE
 
@@ -133,6 +133,18 @@ public class LanguagePage {
 
     public static final Target LANGUAGE_FILIPINO = Target.the("tl").
             locatedBy("//html [@lang = 'tl']");
+
+    /////////////////////---------------------
+
+    // OPTION - Deutsch LANGUAGE
+
+    public static final Target BTN_DEUTSH = Target.the("Deutsh").
+            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'Deutsch')]");
+
+    // CONFIRMATION OF CHANGE OF LANGUAGE TO FILIPINO
+
+    public static final Target LANGUAGE_DEUTSH = Target.the("de").
+            locatedBy("//html [@lang = 'de']");
 
     /////////////////////---------------------
 

@@ -2,9 +2,11 @@ package com.co.booking.steptsdefinitions;
 
 import com.co.booking.questions.ValidationLanguageEnglish;
 import com.co.booking.questions.ValidationLanguageEnglishUK;
+import com.co.booking.questions.ValidationLanguageGerman;
 import com.co.booking.task.ChangeLanguageEnglish;
 import com.co.booking.task.ChangeLanguageEnglishUK;
 import com.co.booking.task.ChangeLanguageFrench;
+import com.co.booking.task.ChangeLanguageGerman;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -40,7 +42,7 @@ public class changeLanguagesStepDefinition {
     @Then("the user observes that the page is translated into English")
     public void theUserObservesThatThePageIsTranslatedIntoEnglish() {
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguageEnglish.compare()
-                , Matchers.is("Find your next stay")));
+                , Matchers.is(true)));
     }
 
     // Change to English UK
@@ -53,7 +55,7 @@ public class changeLanguagesStepDefinition {
     @Then("the user observes that the page is translated into English UK")
     public void theUserObservesThatThePageIsTranslatedIntoEnglishUK() {
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguageEnglishUK.compare()
-                , Matchers.is("Search low prices on hotels, homes and much more...")));
+                , Matchers.is(true)));
     }
 
     // Change to French
@@ -66,18 +68,20 @@ public class changeLanguagesStepDefinition {
     @Then("the user observes that the page is translated into French")
     public void theUserObservesThatThePageIsTranslatedIntoFrench() {
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguageEnglishUK.compare()
-                , Matchers.is("Search low prices on hotels, homes and much more...")));
+                , Matchers.is(true)));
     }
 
     // Change to German
 
     @When("the user changes the language to German")
     public void theUserChangesTheLanguageToGerman() {
-
+        OnStage.theActorInTheSpotlight().attemptsTo(ChangeLanguageGerman.changeLanguageGerman());
     }
 
     @Then("the user observes that the page is translated into German")
     public void theUserObservesThatThePageIsTranslatedIntoGerman() {
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguageGerman.compare()
+                , Matchers.is(true)));
     }
 
     // Change to Portuguese Brazil
