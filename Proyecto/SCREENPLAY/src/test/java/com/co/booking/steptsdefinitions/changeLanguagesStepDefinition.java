@@ -1,12 +1,7 @@
 package com.co.booking.steptsdefinitions;
 
-import com.co.booking.questions.ValidationLanguageEnglish;
-import com.co.booking.questions.ValidationLanguageEnglishUK;
-import com.co.booking.questions.ValidationLanguageGerman;
-import com.co.booking.task.ChangeLanguageEnglish;
-import com.co.booking.task.ChangeLanguageEnglishUK;
-import com.co.booking.task.ChangeLanguageFrench;
-import com.co.booking.task.ChangeLanguageGerman;
+import com.co.booking.questions.*;
+import com.co.booking.task.*;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -62,7 +57,7 @@ public class changeLanguagesStepDefinition {
 
     @When("the user changes the language to French")
     public void theUserChangesTheLanguageToFrench() {
-        OnStage.theActorInTheSpotlight().attemptsTo(ChangeLanguageFrench.changeEnglishFrench());
+        OnStage.theActorInTheSpotlight().attemptsTo(ChangeLanguageFrench.changeFrench());
     }
 
     @Then("the user observes that the page is translated into French")
@@ -88,96 +83,104 @@ public class changeLanguagesStepDefinition {
 
     @When("the user changes the language to Portuguese")
     public void theUserChangesTheLanguageToPortuguese() {
-
+        OnStage.theActorInTheSpotlight().attemptsTo(ChangeLanguagePortuguese.changeLanguagePortuguese());
     }
 
     @Then("the user observes that the page is translated into Portuguese")
     public void theUserObservesThatThePageIsTranslatedIntoPortuguese() {
-
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguagePortuguese.compare()
+                , Matchers.is(true)));
     }
 
     // Change to Portuguese Portugal
 
     @When("the user changes the language to Portuguese PT")
     public void theUserChangesTheLanguageToPortuguesePT() {
-
+        OnStage.theActorInTheSpotlight().attemptsTo(ChangeLanguagePortuguesePT.changeLanguagePortuguesePT());
     }
 
     @Then("the user observes that the page is translated into Portuguese PT")
     public void theUserObservesThatThePageIsTranslatedIntoPortuguesePT() {
-
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguagePortuguesePT.compare()
+                , Matchers.is(true)));
     }
 
     // Change to Italian
 
     @When("the user changes the language to Italian")
     public void theUserChangesTheLanguageToItalian() {
-
+        OnStage.theActorInTheSpotlight().attemptsTo(ChangeLanguageItalian.changeLanguageItalian());
     }
 
     @Then("the user observes that the page is translated into Italian")
     public void theUserObservesThatThePageIsTranslatedIntoItalian() {
-
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguageItalian.compare()
+                , Matchers.is(true)));
     }
 
     // Change to Japanese
 
     @When("the user changes the language to Japanese")
     public void theUserChangesTheLanguageToJapanese() {
-
+        OnStage.theActorInTheSpotlight().attemptsTo(ChangeLanguageJapanese.changeLanguageJapanese());
     }
 
     @Then("the user observes that the page is translated into Japanese")
     public void theUserObservesThatThePageIsTranslatedIntoJapanese() {
-
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguageJapanese.compare()
+                , Matchers.is(true)));
     }
 
     // Change to Mandarin
 
     @When("the user changes the language to Mandarin")
     public void theUserChangesTheLanguageToMandarin() {
-
+        OnStage.theActorInTheSpotlight().attemptsTo(ChangeLanguageMandarin.changeLanguageMandarin());
     }
 
     @Then("the user observes that the page is translated into Mandarin")
     public void theUserObservesThatThePageIsTranslatedIntoMandarin() {
-
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguageMandarin.compare()
+                , Matchers.is(true)));
     }
 
     // Change to Greek
 
     @When("the user changes the language to Greek")
     public void theUserChangesTheLanguageToGreek() {
-
+        OnStage.theActorInTheSpotlight().attemptsTo(ChangeLanguageGreek.changeLanguageGreek());
     }
 
     @Then("the user observes that the page is translated into Greek")
     public void theUserObservesThatThePageIsTranslatedIntoGreek() {
-
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguageGreek.compare()
+                , Matchers.is(true)));
     }
 
     // Change to Polish
 
     @When("the user changes the language to Polish")
     public void theUserChangesTheLanguageToPolish() {
-
+        OnStage.theActorInTheSpotlight().attemptsTo(ChangeLanguagePolish.changeLanguagePolish());
     }
 
     @Then("the user observes that the page is translated into Polish")
     public void theUserObservesThatThePageIsTranslatedIntoPolish() {
-
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguagePolish.compare()
+                , Matchers.is(true)));
     }
 
     // Change to Filipino
 
     @When("the user changes the language to Filipino")
     public void theUserChangesTheLanguageToFilipino() {
-
+        OnStage.theActorInTheSpotlight().attemptsTo(ChangeLanguageFilipino.changeLanguageFilipino());
     }
 
     @Then("the user observes that the page is translated into Filipino")
     public void theUserObservesThatThePageIsTranslatedIntoFilipino() {
-
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguageFilipino.compare()
+                , Matchers.is(true)));
     }
 
 }

@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-09-2023 20:01</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 28-09-2023 08:37</span>
     <br style="clear:left"/>
 </div>
 
@@ -189,9 +189,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Validation of language change to &quot;Japanese&quot;
+                                <span class="failing-color">Validation of language change to &quot;Japanese&quot;
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -208,13 +208,65 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be present exception: Expected condition failed: waiting for By.xpath: //button [@data-testid = 'selection-item']//span [contains(text(),'&aelig;&mdash;&yen;&aelig;&oelig;&not;&egrave;&ordf;ž')] to be present (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-AM3VRUH', ip: '172.18.1.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.co.booking.task.ChangeLanguageJapanese.performAs(ChangeLanguageJapanese.java:15)<br />com.co.booking.steptsdefinitions.changeLanguagesStepDefinition.theUserChangesTheLanguageToJapanese(changeLanguagesStepDefinition.java:125)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.xpath: //button [@data-testid = 'selection-item']//span [contains(text(),'æ—¥æœ¬èªž')] to be present (tried for 5 second(s) with 100 milliseconds interval)<br>Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'<br>System info: host: 'DESKTOP-AM3VRUH', ip: '172.18.1.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'<br>Driver info: driver.version: unknown</pre>
+                        <pre>com.co.booking.task.ChangeLanguageJapanese.performAs(ChangeLanguageJapanese.java :15)<br />com.co.booking.steptsdefinitions.changeLanguagesStepDefinition.theUserChangesTheLanguageToJapanese(changeLanguagesStepDefinition.java :125)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java :66)<br />io.cucumber.java.Invoker.invoke(Invoker.java :24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java :47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java :29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java :66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java :63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java :92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java :51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :57)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java :69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java :74)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource2873585096757048009.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="2349610cd08369fdd3914c3b9f5df0ad470ea8bbb88fba82a21cad5417a682bc.png" title=" Given the user is on the page" width="1366"/>
-                <img src="2349610cd08369fdd3914c3b9f5df0ad470ea8bbb88fba82a21cad5417a682bc.png" title=" Team15 opens the https://www.booking.com/" width="1366"/>
-                <img src="2349610cd08369fdd3914c3b9f5df0ad470ea8bbb88fba82a21cad5417a682bc.png" title=" Given the user is on the page (completed)" width="1366"/>
-                <img src="2349610cd08369fdd3914c3b9f5df0ad470ea8bbb88fba82a21cad5417a682bc.png" title=" When the user changes the language to Japanese" width="1366"/>
-                <img src="2349610cd08369fdd3914c3b9f5df0ad470ea8bbb88fba82a21cad5417a682bc.png" title=" Then the user observes that the page is translated into Japanese: <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="ed310b31c34188a40ef9d8e7e59e7ce0fece0e4963da64297eaec62388e4836b.png" title=" Given the user is on the page" width="1366"/>
+                <img src="ed310b31c34188a40ef9d8e7e59e7ce0fece0e4963da64297eaec62388e4836b.png" title=" Team15 opens the https://www.booking.com/" width="1366"/>
+                <img src="ed310b31c34188a40ef9d8e7e59e7ce0fece0e4963da64297eaec62388e4836b.png" title=" Given the user is on the page (completed)" width="1366"/>
+                <img src="ed310b31c34188a40ef9d8e7e59e7ce0fece0e4963da64297eaec62388e4836b.png" title=" When the user changes the language to Japanese" width="1366"/>
+                <img src="d9fd3b3c1330ef084e1ae98ef3b9f5aabd7a09a778686de99adf74abfcd386f3.png" title=" Team15 change language japanese" width="1366"/>
+                <img src="d9fd3b3c1330ef084e1ae98ef3b9f5aabd7a09a778686de99adf74abfcd386f3.png" title=" Team15 clicks on Clic para cerrar anuncio" width="1366"/>
+                <img src="e278099e075465aaec5156346cd52f65767880ee8a830cac49ad04184a553fbc.png" title=" Team15 clicks on Clic para cerrar anuncio (completed)" width="1366"/>
+                <img src="e278099e075465aaec5156346cd52f65767880ee8a830cac49ad04184a553fbc.png" title=" Team15 clicks on Selecciona tu idioma" width="1366"/>
+                <img src="844fde01dc581b337b6189e4d2592127e7e480e796cebc3f74d12ec192ede6e3.png" title=" Team15 clicks on Selecciona tu idioma (completed)" width="1366"/>
+                <img src="844fde01dc581b337b6189e4d2592127e7e480e796cebc3f74d12ec192ede6e3.png" title=" Team15 clicks on Japanese" width="1366"/>
+                <img src="87c47712c3d90e63c6791972921de5e6db9150d63471be760ebefad366eb4968.png" title=" Team15 clicks on Japanese (completed): <span class='failing-color'>FAILURE</span>" width="1366"/>
             </div>
         </div>
 

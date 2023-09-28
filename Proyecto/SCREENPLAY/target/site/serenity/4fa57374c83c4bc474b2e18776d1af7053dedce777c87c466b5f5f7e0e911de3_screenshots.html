@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-09-2023 20:01</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 28-09-2023 08:37</span>
     <br style="clear:left"/>
 </div>
 
@@ -189,9 +189,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Validation of language change to &quot;Greek&quot;
+                                <span class="failing-color">Validation of language change to &quot;Greek&quot;
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -208,13 +208,64 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be present exception: Expected condition failed: waiting for By.xpath: //button [@data-testid = 'selection-item']//span [contains(text(),'&Icirc;&bull;&Icirc;&raquo;&Icirc;&raquo;&Icirc;&middot;&Icirc;&frac12;&Icirc;&sup1;&Icirc;&ordm;&Icirc;&not;')] to be present (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-AM3VRUH', ip: '172.18.1.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.co.booking.task.ChangeLanguageGreek.performAs(ChangeLanguageGreek.java:15)<br />com.co.booking.steptsdefinitions.changeLanguagesStepDefinition.theUserChangesTheLanguageToGreek(changeLanguagesStepDefinition.java:151)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.xpath: //button [@data-testid = 'selection-item']//span [contains(text(),'Î•Î»Î»Î·Î½Î¹ÎºÎ¬')] to be present (tried for 5 second(s) with 100 milliseconds interval)<br>Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'<br>System info: host: 'DESKTOP-AM3VRUH', ip: '172.18.1.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'<br>Driver info: driver.version: unknown</pre>
+                        <pre>com.co.booking.task.ChangeLanguageGreek.performAs(ChangeLanguageGreek.java :15)<br />com.co.booking.steptsdefinitions.changeLanguagesStepDefinition.theUserChangesTheLanguageToGreek(changeLanguagesStepDefinition.java :151)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java :66)<br />io.cucumber.java.Invoker.invoke(Invoker.java :24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java :47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java :29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java :66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java :63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java :92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java :51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :57)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java :69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java :74)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource7237125064129129827.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="1a87304591d9d9fa76396459f35f81208909ae326d1b17a89cfaf9760ac13a42.png" title=" Given the user is on the page" width="1366"/>
-                <img src="1a87304591d9d9fa76396459f35f81208909ae326d1b17a89cfaf9760ac13a42.png" title=" Team15 opens the https://www.booking.com/" width="1366"/>
-                <img src="1a87304591d9d9fa76396459f35f81208909ae326d1b17a89cfaf9760ac13a42.png" title=" Given the user is on the page (completed)" width="1366"/>
-                <img src="1a87304591d9d9fa76396459f35f81208909ae326d1b17a89cfaf9760ac13a42.png" title=" When the user changes the language to Greek" width="1366"/>
-                <img src="1a87304591d9d9fa76396459f35f81208909ae326d1b17a89cfaf9760ac13a42.png" title=" Then the user observes that the page is translated into Greek: <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="07d298f2f2c9271cfdb9050f68e0713b654fd9f9ff4e235335eeeacc9f5a817d.png" title=" Given the user is on the page" width="1366"/>
+                <img src="07d298f2f2c9271cfdb9050f68e0713b654fd9f9ff4e235335eeeacc9f5a817d.png" title=" Team15 opens the https://www.booking.com/" width="1366"/>
+                <img src="07d298f2f2c9271cfdb9050f68e0713b654fd9f9ff4e235335eeeacc9f5a817d.png" title=" Given the user is on the page (completed)" width="1366"/>
+                <img src="07d298f2f2c9271cfdb9050f68e0713b654fd9f9ff4e235335eeeacc9f5a817d.png" title=" When the user changes the language to Greek" width="1366"/>
+                <img src="c00e9a2e547dfa3f3abd121b930396f43e73165faffd1e6889e056e1679b4d98.png" title=" Team15 change language greek" width="1366"/>
+                <img src="c00e9a2e547dfa3f3abd121b930396f43e73165faffd1e6889e056e1679b4d98.png" title=" Team15 clicks on Clic para cerrar anuncio" width="1366"/>
+                <img src="07d298f2f2c9271cfdb9050f68e0713b654fd9f9ff4e235335eeeacc9f5a817d.png" title=" Team15 clicks on Clic para cerrar anuncio (completed)" width="1366"/>
+                <img src="7ed0ea035c1b7a4d5690f911319ce94012e1072d9ad1184e8a7201ddbd0468a2.png" title=" Team15 clicks on Selecciona tu idioma" width="1366"/>
+                <img src="7ed0ea035c1b7a4d5690f911319ce94012e1072d9ad1184e8a7201ddbd0468a2.png" title=" Team15 clicks on &Icirc;&bull;&Icirc;&raquo;&Icirc;&raquo;&Icirc;&middot;&Icirc;&frac12;&Icirc;&sup1;&Icirc;&ordm;&Icirc;&not;" width="1366"/>
+                <img src="bed6ae17067fd216b0bee5fc5313719d3963316763e361ca4585eed62d04e7de.png" title=" Team15 clicks on &Icirc;&bull;&Icirc;&raquo;&Icirc;&raquo;&Icirc;&middot;&Icirc;&frac12;&Icirc;&sup1;&Icirc;&ordm;&Icirc;&not; (completed): <span class='failing-color'>FAILURE</span>" width="1366"/>
             </div>
         </div>
 

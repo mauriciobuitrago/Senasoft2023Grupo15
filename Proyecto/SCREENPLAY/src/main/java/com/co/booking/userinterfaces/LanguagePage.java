@@ -54,12 +54,12 @@ public class LanguagePage {
 
     // OPTION - PORTUGUESE PT LANGUAGE
 
-    public static final Target BTN_PortuguêspPT = Target.the("(PT)").
-            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'Português (PT)')]");
+    public static final Target BTN_PortuguespPT = Target.the("(PT)").
+            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'(PT)')]");
 
     // CONFIRMATION OF CHANGE OF LANGUAGE TO PortuguêspPT
 
-    public static final Target LANGUAGE_PortuguêspPT = Target.the("pt-pt").
+    public static final Target LANGUAGE_PortuguespPT = Target.the("pt-pt").
             locatedBy("//html [@lang = 'pt-pt']");
 
     /////////////////////---------------------
