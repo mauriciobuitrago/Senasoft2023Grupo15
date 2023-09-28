@@ -102,8 +102,7 @@ public class LanguagePage {
 
     // OPTION - GREEK LANGUAGE
 
-    public static final Target BTN_GREEK = Target.the("Ελληνικά").
-            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'Ελληνικά')]");
+    public static final Target BTN_GREEK = Target.the("Ελληνικά").locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'Ελληνικά')]");
 
     // CONFIRMATION OF CHANGE OF LANGUAGE TO GREEK
 
