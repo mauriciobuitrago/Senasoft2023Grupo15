@@ -4,6 +4,7 @@ import com.co.booking.questions.ValidationLanguageEnglish;
 import com.co.booking.questions.ValidationLanguageEnglishUK;
 import com.co.booking.task.ChangeLanguageEnglish;
 import com.co.booking.task.ChangeLanguageEnglishUK;
+import com.co.booking.task.ChangeLanguageFrench;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -53,12 +54,13 @@ public class changeLanguagesStepDefinition {
 
     @When("the user changes the language to French")
     public void theUserChangesTheLanguageToFrench() {
-
+        OnStage.theActorInTheSpotlight().attemptsTo(ChangeLanguageFrench.changeEnglishFrench());
     }
 
     @Then("the user observes that the page is translated into French")
     public void theUserObservesThatThePageIsTranslatedIntoFrench() {
-
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguageEnglishUK.compare()
+                , Matchers.is("Search low prices on hotels, homes and much more...")));
     }
 
     @When("the user changes the language to German")

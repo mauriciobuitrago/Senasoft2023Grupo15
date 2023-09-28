@@ -5,16 +5,16 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
 
-
-public class ValidationLanguageEnglish implements Question <String> {
+public class ValidationLanguageFrench implements Question <String> {
 
 
     @Override
     public String answeredBy(Actor actor) {
-        return Text.of(LanguagePage.LANGUAGE_US).viewedBy(actor).asString();
+
+        return Text.of(LanguagePage.LANGUAGE_French).viewedBy(actor).asString();
     }
 
-    public static ValidationLanguageEnglish compare () {
-        return new ValidationLanguageEnglish();
+    public static ValidationLanguageFrench compare () {
+        return new ValidationLanguageFrench();
     }
 }
