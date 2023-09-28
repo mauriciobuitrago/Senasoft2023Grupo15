@@ -17,14 +17,14 @@ public class Reservation implements Task {
         actor.attemptsTo(Scroll.to(SearchPage.BTN_SCROLL));
         actor.attemptsTo(Click.on(SearchPage.TXT_SEARCH));
         actor.attemptsTo(Click.on(SearchPage.BTN_OPTION));
-        actor.attemptsTo(Click.on(SearchPage.BTN_CALENDAR));
         try {
-            Thread.sleep(3000);
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
         actor.attemptsTo(Click.on(SearchPage.BTN_FIRSTSDAY));
         actor.attemptsTo(Click.on(SearchPage.BTN_SECONDDAY));
+        actor.attemptsTo(Click.on(SearchPage.BTN_CALENDAR));
         actor.attemptsTo(Click.on(SearchPage.BTN_PERSON));
         actor.attemptsTo(Click.on(SearchPage.BTN_VALOR_PERSON));
         actor.attemptsTo(DoubleClick.on(SearchPage.BTN_VALOR_CHILDREN));
