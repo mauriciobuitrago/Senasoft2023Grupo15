@@ -9,6 +9,7 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.DoubleClick;
 import net.serenitybdd.screenplay.actions.Scroll;
+import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import net.serenitybdd.screenplay.questions.WebElementQuestion;
 
 public class Reservation implements Task {
@@ -34,13 +35,11 @@ public class Reservation implements Task {
                 Click.on(SearchPage.BTN_VALOR_PERSON),
                 DoubleClick.on(SearchPage.BTN_VALOR_CHILDREN),
                 Click.on(SearchPage.BTN_YEAR_FIRST_CHILDREN),
-                WebElementQuestion,the()
+                Click.on(SearchPage.OP_YEAR_FIRST_CHILDREN),
                 Click.on(SearchPage.BTN_YEAR_SECOND_CHILDREN),
                 Click.on(SearchPage.OP_YEAR_SECOND_CHILDREN),
                 Click.on(SearchPage.BTN_VALOR_BEDROOMS),
                 Click.on(SearchPage.BTN_SCROLL));
-
-// Click.on(SearchPage.OP_YEAR_FIRST_CHILDREN),
 
 
         try {
@@ -52,10 +51,37 @@ public class Reservation implements Task {
         // Select Hotel
 
         actor.attemptsTo(Scroll.to(ReservationRecordPage.BTN_THREESTARS));
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         actor.attemptsTo(Click.on(ReservationRecordPage.BTN_THREESTARS));
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        actor.attemptsTo(Scroll.to(ReservationRecordPage.BTN_THREESTARS));
         actor.attemptsTo(Click.on(ReservationRecordPage.BTN_FOURSTARS));
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        actor.attemptsTo(Scroll.to(ReservationRecordPage.BTN_THREESTARS));
         actor.attemptsTo(Click.on(ReservationRecordPage.BTN_FIVESTARS));
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         actor.attemptsTo(Scroll.to(ReservationRecordPage.BTN_SELECTFILTER));
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         actor.attemptsTo(Click.on(ReservationRecordPage.BTN_SELECTFILTER));
         actor.attemptsTo(Click.on(ReservationRecordPage.BTN_SELECTFILTERECONOMY));
         actor.attemptsTo(Click.on(ReservationRecordPage.BTN_VERDISPONIBILIDAD));
