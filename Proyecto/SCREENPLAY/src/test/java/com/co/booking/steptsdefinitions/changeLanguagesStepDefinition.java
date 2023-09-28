@@ -30,6 +30,8 @@ public class changeLanguagesStepDefinition {
         OnStage.theActorInTheSpotlight().can(BrowseTheWeb.with(hisBrowser));
     }
 
+    // Change to English
+
     @When("the user changes the language to English")
     public void theUserChangesTheLanguageToEnglish() {
         OnStage.theActorInTheSpotlight().attemptsTo(ChangeLanguageEnglish.changeEnglish());
@@ -40,6 +42,8 @@ public class changeLanguagesStepDefinition {
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguageEnglish.compare()
                 , Matchers.is("Find your next stay")));
     }
+
+    // Change to English UK
 
     @When("the user changes the language to English UK")
     public void theUserChangesTheLanguageToEnglishUK() {
@@ -52,6 +56,8 @@ public class changeLanguagesStepDefinition {
                 , Matchers.is("Search low prices on hotels, homes and much more...")));
     }
 
+    // Change to French
+
     @When("the user changes the language to French")
     public void theUserChangesTheLanguageToFrench() {
         OnStage.theActorInTheSpotlight().attemptsTo(ChangeLanguageFrench.changeEnglishFrench());
@@ -63,6 +69,8 @@ public class changeLanguagesStepDefinition {
                 , Matchers.is("Search low prices on hotels, homes and much more...")));
     }
 
+    // Change to German
+
     @When("the user changes the language to German")
     public void theUserChangesTheLanguageToGerman() {
 
@@ -71,6 +79,8 @@ public class changeLanguagesStepDefinition {
     @Then("the user observes that the page is translated into German")
     public void theUserObservesThatThePageIsTranslatedIntoGerman() {
     }
+
+    // Change to Portuguese Brazil
 
     @When("the user changes the language to Portuguese")
     public void theUserChangesTheLanguageToPortuguese() {
@@ -82,6 +92,8 @@ public class changeLanguagesStepDefinition {
 
     }
 
+    // Change to Portuguese Portugal
+
     @When("the user changes the language to Portuguese PT")
     public void theUserChangesTheLanguageToPortuguesePT() {
 
@@ -91,6 +103,8 @@ public class changeLanguagesStepDefinition {
     public void theUserObservesThatThePageIsTranslatedIntoPortuguesePT() {
 
     }
+
+    // Change to Italian
 
     @When("the user changes the language to Italian")
     public void theUserChangesTheLanguageToItalian() {
@@ -102,6 +116,8 @@ public class changeLanguagesStepDefinition {
 
     }
 
+    // Change to Japanese
+
     @When("the user changes the language to Japanese")
     public void theUserChangesTheLanguageToJapanese() {
 
@@ -111,6 +127,8 @@ public class changeLanguagesStepDefinition {
     public void theUserObservesThatThePageIsTranslatedIntoJapanese() {
 
     }
+
+    // Change to Mandarin
 
     @When("the user changes the language to Mandarin")
     public void theUserChangesTheLanguageToMandarin() {
@@ -122,6 +140,8 @@ public class changeLanguagesStepDefinition {
 
     }
 
+    // Change to Greek
+
     @When("the user changes the language to Greek")
     public void theUserChangesTheLanguageToGreek() {
 
@@ -132,6 +152,8 @@ public class changeLanguagesStepDefinition {
 
     }
 
+    // Change to Polish
+
     @When("the user changes the language to Polish")
     public void theUserChangesTheLanguageToPolish() {
 
@@ -141,6 +163,8 @@ public class changeLanguagesStepDefinition {
     public void theUserObservesThatThePageIsTranslatedIntoPolish() {
 
     }
+
+    // Change to Filipino
 
     @When("the user changes the language to Filipino")
     public void theUserChangesTheLanguageToFilipino() {
