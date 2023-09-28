@@ -12,7 +12,7 @@ public class LanguagePage {
     // CONFIRMATION OF CHANGE OF LANGUAGE TO ENGLISH
 
     public static final Target LANGUAGE_US = Target.the("en-us").
-            locatedBy("//* [contains(text(), 'Find your next stay')]");
+            locatedBy("//html [@lang = 'en-us']");
 
     /////////////////////---------------------
 
@@ -24,14 +24,14 @@ public class LanguagePage {
     // CONFIRMATION OF CHANGE OF LANGUAGE TO ENGLISH UK
 
     public static final Target LANGUAGE_UK = Target.the("en-gb").
-            locatedBy("//* [contains(text(), 'Search low prices on hotels, homes and much more...')]");
+            locatedBy("//html [@lang = 'en-gb']");
 
     /////////////////////---------------------
 
     // OPTION - French LANGUAGE
 
     public static final Target BTN_ENGLISH_French = Target.the("Français").
-            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'Français')]");
+            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'Fran')]");
 
     // CONFIRMATION OF CHANGE OF LANGUAGE TO French
 
@@ -42,8 +42,8 @@ public class LanguagePage {
 
     // OPTION - PORTUGUESE LANGUAGE
 
-    public static final Target BTN_PORTUGUESBR = Target.the("Português (BR)").
-            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'Português (BR)')]");
+    public static final Target BTN_PORTUGUESBR = Target.the("Portug (BR)").
+            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'(BR)')]");
 
     // CONFIRMATION OF CHANGE OF LANGUAGE TO PORTUGUESE
 
@@ -54,12 +54,12 @@ public class LanguagePage {
 
     // OPTION - PORTUGUESE PT LANGUAGE
 
-    public static final Target BTN_PortuguêspPT = Target.the("Português (PT)").
-            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'Português (PT)')]");
+    public static final Target BTN_PortuguespPT = Target.the("(PT)").
+            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'(PT)')]");
 
     // CONFIRMATION OF CHANGE OF LANGUAGE TO PortuguêspPT
 
-    public static final Target LANGUAGE_PortuguêspPT = Target.the("pt-pt").
+    public static final Target LANGUAGE_PortuguespPT = Target.the("pt-pt").
             locatedBy("//html [@lang = 'pt-pt']");
 
     /////////////////////---------------------
@@ -78,8 +78,8 @@ public class LanguagePage {
 
     // OPTION - JAPANESE LANGUAGE
 
-    public static final Target BTN_JAPANESE = Target.the("Italiano").
-            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'Italiano')]");
+    public static final Target BTN_JAPANESE = Target.the("Japanese").
+            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'日本語')]");
 
     // CONFIRMATION OF CHANGE OF LANGUAGE TO JAPANESE
 
@@ -132,6 +132,18 @@ public class LanguagePage {
 
     public static final Target LANGUAGE_FILIPINO = Target.the("tl").
             locatedBy("//html [@lang = 'tl']");
+
+    /////////////////////---------------------
+
+    // OPTION - Deutsch LANGUAGE
+
+    public static final Target BTN_DEUTSH = Target.the("Deutsh").
+            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'Deutsch')]");
+
+    // CONFIRMATION OF CHANGE OF LANGUAGE TO FILIPINO
+
+    public static final Target LANGUAGE_DEUTSH = Target.the("de").
+            locatedBy("//html [@lang = 'de']");
 
     /////////////////////---------------------
 

@@ -4,14 +4,15 @@ import com.co.booking.userinterfaces.LanguagePage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
+import net.serenitybdd.screenplay.questions.Visibility;
 
 
-public class ValidationLanguageEnglish implements Question <String> {
+public class ValidationLanguageEnglish implements Question <Boolean> {
 
 
     @Override
-    public String answeredBy(Actor actor) {
-        return Text.of(LanguagePage.LANGUAGE_US).viewedBy(actor).asString();
+    public Boolean answeredBy(Actor actor) {
+        return Visibility.of(LanguagePage.LANGUAGE_US).viewedBy(actor).asBoolean();
     }
 
     public static ValidationLanguageEnglish compare () {

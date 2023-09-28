@@ -18,7 +18,7 @@ public class ChangeLanguageFrench implements Task {
 
     }
 
-    public static ChangeLanguageFrench changeEnglishFrench () {
+    public static ChangeLanguageFrench changeFrench () {
         return Tasks.instrumented(ChangeLanguageFrench.class);
     }
 
