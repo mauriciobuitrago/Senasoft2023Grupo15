@@ -31,7 +31,7 @@ public class SearchPage {
     public static final Target BTN_VALOR_CHILDREN = Target.the("Cantidad de niños")
             .locatedBy("//button [@tabindex = '-1']//following::button[3]");
      public static final Target BTN_YEAR_FIRST_CHILDREN = Target.the("Boton para escoger la edad del primer niño")
-            .locatedBy("//select[@id = ':rv:']");
+            .locatedBy("//div[@class = 'cabad3c686 aff44befa2']//select[@class='ebf4591c8e']");
      public static final Target OP_YEAR_FIRST_CHILDREN = Target.the("Boton para escoger la edad del primer niño")
             .locatedBy("//select[@id = ':rv:']//option[@value='3']");
 
