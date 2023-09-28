@@ -1,6 +1,7 @@
 package com.co.booking.task;
 
 import com.co.booking.userinterfaces.MenuComponent;
+import com.co.booking.userinterfaces.ReservationRecordPage;
 import com.co.booking.userinterfaces.SearchPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -34,6 +35,7 @@ public class Reservation implements Task {
         actor.attemptsTo(Click.on(SearchPage.OP_YEAR_SECOND_CHILDREN));
         actor.attemptsTo(Click.on(SearchPage.BTN_VALOR_BEDROOMS));
 
+        
 
 
     }
