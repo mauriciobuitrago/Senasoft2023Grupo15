@@ -62,7 +62,7 @@ public class changeLanguagesStepDefinition {
 
     @Then("the user observes that the page is translated into French")
     public void theUserObservesThatThePageIsTranslatedIntoFrench() {
-        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguageEnglishUK.compare()
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidationLanguageFrench.compare()
                 , Matchers.is(true)));
     }
 
