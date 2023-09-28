@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Reservation" skipped="0" tests="1" time="36.57" timestamp="2023-09-28 10:27:25"><testcase name="Successful reservation"/></testsuite>
+=======
 <?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Reservation" skipped="0" tests="1" time="29.76" timestamp="2023-09-28 10:26:21"><testcase name="Successful reservation"><failure message="Expected condition failed: waiting for By.xpath: //select[@id = ':r10:'] to be present (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-AM3VRUH', ip: '172.18.1.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for By.xpath: //select[@id = ':r10:'] to be present (tried for 5 second(s) with 100 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-AM3VRUH', ip: '172.18.1.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
@@ -25,3 +28,4 @@ io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57
 worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
 worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
 </system-err></testcase></testsuite>
+>>>>>>> caaed54c91c17ec7c90f7b7ae1e2aef20b223859

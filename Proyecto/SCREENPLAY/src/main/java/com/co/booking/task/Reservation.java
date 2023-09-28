@@ -1,6 +1,14 @@
 package com.co.booking.task;
 
 import com.co.booking.userinterfaces.MenuComponent;
+<<<<<<< HEAD
+
+import com.co.booking.userinterfaces.RegisterPage;
+
+import com.co.booking.userinterfaces.ReservationRecordPage;
+
+=======
+>>>>>>> caaed54c91c17ec7c90f7b7ae1e2aef20b223859
 import com.co.booking.userinterfaces.SearchPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
