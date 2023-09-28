@@ -1,7 +1,11 @@
 package com.co.booking.task;
 
 import com.co.booking.userinterfaces.MenuComponent;
+<<<<<<< HEAD
+import com.co.booking.userinterfaces.RegisterPage;
+=======
 import com.co.booking.userinterfaces.ReservationRecordPage;
+>>>>>>> 88769da8e0003c587501f2a0c247fd4b42115fcd
 import com.co.booking.userinterfaces.SearchPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -14,27 +18,35 @@ public class Reservation implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Click.on(MenuComponent.CLOSE_POPPUP_BUTTON));
-        actor.attemptsTo(Scroll.to(SearchPage.BTN_SCROLL));
-        actor.attemptsTo(Click.on(SearchPage.TXT_SEARCH));
-        actor.attemptsTo(Click.on(SearchPage.BTN_OPTION));
+
+        //SEARCH RESERVATION
+
+        actor.attemptsTo(Click.on(MenuComponent.CLOSE_POPPUP_BUTTON),
+                Scroll.to(SearchPage.BTN_SCROLL),
+                Click.on(SearchPage.TXT_SEARCH),
+                Click.on(SearchPage.BTN_OPTION));
         try {
             Thread.sleep(4000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        actor.attemptsTo(Click.on(SearchPage.BTN_FIRSTSDAY));
-        actor.attemptsTo(Click.on(SearchPage.BTN_SECONDDAY));
-        actor.attemptsTo(Click.on(SearchPage.BTN_CALENDAR));
-        actor.attemptsTo(Click.on(SearchPage.BTN_PERSON));
-        actor.attemptsTo(Click.on(SearchPage.BTN_VALOR_PERSON));
-        actor.attemptsTo(DoubleClick.on(SearchPage.BTN_VALOR_CHILDREN));
-        actor.attemptsTo(Click.on(SearchPage.BTN_YEAR_FIRST_CHILDREN));
-        actor.attemptsTo(Click.on(SearchPage.OP_YEAR_FIRST_CHILDREN));
-        actor.attemptsTo(Click.on(SearchPage.BTN_YEAR_SECOND_CHILDREN));
-        actor.attemptsTo(Click.on(SearchPage.OP_YEAR_SECOND_CHILDREN));
-        actor.attemptsTo(Click.on(SearchPage.BTN_VALOR_BEDROOMS));
-
+        actor.attemptsTo(Click.on(SearchPage.BTN_FIRSTSDAY),
+                Click.on(SearchPage.BTN_SECONDDAY),
+                Click.on(SearchPage.BTN_CALENDAR),
+                Click.on(SearchPage.BTN_PERSON),
+                Click.on(SearchPage.BTN_VALOR_PERSON),
+                DoubleClick.on(SearchPage.BTN_VALOR_CHILDREN),
+                Click.on(SearchPage.BTN_YEAR_FIRST_CHILDREN),
+                Click.on(SearchPage.OP_YEAR_FIRST_CHILDREN),
+                Click.on(SearchPage.BTN_YEAR_SECOND_CHILDREN),
+                Click.on(SearchPage.OP_YEAR_SECOND_CHILDREN),
+                Click.on(SearchPage.BTN_VALOR_BEDROOMS),
+                Click.on(SearchPage.BTN_SCROLL));
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
 
 
 
