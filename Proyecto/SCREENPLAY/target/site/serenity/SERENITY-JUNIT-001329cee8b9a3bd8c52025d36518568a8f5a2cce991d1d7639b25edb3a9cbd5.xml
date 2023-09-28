@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Reservation" skipped="0" tests="1" time="37.85" timestamp="2023-09-28 10:03:33"><testcase name="Successful reservation"/></testsuite>
+=======
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Reservation" skipped="0" tests="1" time="25.86" timestamp="2023-09-28 10:16:12"><testcase name="Successful reservation"/></testsuite>
+>>>>>>> 88769da8e0003c587501f2a0c247fd4b42115fcd
