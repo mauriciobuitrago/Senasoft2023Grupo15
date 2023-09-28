@@ -12,7 +12,7 @@ public class LanguagePage {
     // CONFIRMATION OF CHANGE OF LANGUAGE TO ENGLISH
 
     public static final Target LANGUAGE_US = Target.the("en-us").
-            locatedBy("//html [@lang = 'en-us']");
+            locatedBy("//* [contains(text(), 'Find your next stay')]");
 
     /////////////////////---------------------
 
@@ -24,7 +24,7 @@ public class LanguagePage {
     // CONFIRMATION OF CHANGE OF LANGUAGE TO ENGLISH UK
 
     public static final Target LANGUAGE_UK = Target.the("en-gb").
-            locatedBy("//html [@lang = 'en-gb']");
+            locatedBy("//* [contains(text(), 'Search low prices on hotels, homes and much more...')]");
 
     /////////////////////---------------------
 
@@ -97,18 +97,6 @@ public class LanguagePage {
 
     public static final Target LANGUAGE_MANDARIN = Target.the("zh-cn").
             locatedBy("//html [@lang = 'zh-cn']");
-
-    /////////////////////---------------------
-
-    // OPTION - RUSSIAN LANGUAGE
-
-    public static final Target BTN_RUSSIAN = Target.the("Русский").
-            locatedBy("//button [@data-testid = 'selection-item']//span [contains(text(),'Русский')]");
-
-    // CONFIRMATION OF CHANGE OF LANGUAGE TO RUSSIAN
-
-    public static final Target LANGUAGE_RUSSIAN = Target.the("ru").
-            locatedBy("//html [@lang = 'ru']");
 
     /////////////////////---------------------
 
