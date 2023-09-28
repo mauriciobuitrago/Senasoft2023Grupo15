@@ -12,7 +12,7 @@ public class LanguagePage {
     // CONFIRMATION OF CHANGE OF LANGUAGE TO ENGLISH
 
     public static final Target LANGUAGE_US = Target.the("en-us").
-            locatedBy("//* [contains(text(), 'Find your next stay')]");
+            locatedBy("//html [@lang = 'en-us']");
 
     /////////////////////---------------------
 
@@ -24,7 +24,7 @@ public class LanguagePage {
     // CONFIRMATION OF CHANGE OF LANGUAGE TO ENGLISH UK
 
     public static final Target LANGUAGE_UK = Target.the("en-gb").
-            locatedBy("//* [contains(text(), 'Search low prices on hotels, homes and much more...')]");
+            locatedBy("//html [@lang = 'en-gb']");
 
     /////////////////////---------------------
 
